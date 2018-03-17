@@ -46,9 +46,6 @@ public class UserServlet extends HttpServlet {
 	//用户登陆页面
 	public void loginPage(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException{
-		String username = request.getParameter("username");
-		String password = request.getParameter("password");
-		
 		request.getRequestDispatcher("/WEB-INF/js/xueshengshaodai/index-dI.jsp").forward(request, response);
 	}
 	
