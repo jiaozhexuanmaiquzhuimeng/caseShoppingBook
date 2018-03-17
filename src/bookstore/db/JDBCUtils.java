@@ -17,12 +17,10 @@ public class JDBCUtils {
 		dataSource = new ComboPooledDataSource("javawebapp");
 	}
 
-	// 返回一个connection对象
 	public static Connection getConnection() throws SQLException {
 		return dataSource.getConnection();
 	}
 
-	// 关闭数据库链接
 	public static void releaseConnection(Connection connection) {
 		if (connection != null) {
 			try {
