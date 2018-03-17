@@ -1,6 +1,9 @@
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <style type="text/css">
 
 }
@@ -8,7 +11,7 @@
 	color: #D6D6D6;
 	font-size: 12px;
 }
-.吃 {
+.鍚� {
 	font-weight: bold;
 }
 .c2 {
@@ -17,7 +20,7 @@
 	font-weight: bold;
 	font-size: 22px;
 }
-.餐 {
+.椁� {
 	font-size: 16px;
 }
 .c3 {
@@ -41,23 +44,23 @@
 	text-align: center;
 }
 </style>
-	<title></title>
+	<title>顺带捎</title>
 </head>
 <body>
 <p class="z2">
 <nav id="nav">
-<h3 ng-if="pageTitleVisible"><span class="c1" ng-bind="pageTitle">地址管理</span></h3>
+<h3 ng-if="pageTitleVisible"><span class="c1" ng-bind="pageTitle">鍦板潃绠＄悊</span></h3>
 <hr>
 <div class="a">
   <table width="303" height="97" border="0">
     <tr>
-      <td width="57">顺带捎</td>
-      <td width="139">先生</td>
-      <td width="44">修改</td>
-      <td width="45">删除</td>
+      <td width="57">椤哄甫鎹�</td>
+      <td width="139">鍏堢敓</td>
+      <td width="44">淇敼</td>
+      <td width="45">鍒犻櫎</td>
     </tr>
     <tr>
-      <td colspan="4">德州学院宿舍楼*号楼</td>
+      <td colspan="4">寰峰窞瀛﹂櫌瀹胯垗妤�*鍙锋ゼ</td>
     </tr>
     <tr>
       <td colspan="4">1785346****</td>
@@ -71,7 +74,7 @@
     </tr>
   <tr>
     <td width="48">&nbsp;</td>
-    <td align="center" valign="middle"><a href="#">+&nbsp;       &nbsp; </a><a href="#"> 添加新地址</a></td>
+    <td align="center" valign="middle"><a href="#">+&nbsp;       &nbsp; </a><a href="#"> 娣诲姞鏂板湴鍧�</a></td>
     </tr>
   <tr>
     <td colspan="2">&nbsp;</td>

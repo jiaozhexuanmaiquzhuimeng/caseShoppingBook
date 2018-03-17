@@ -1,7 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>捎带员 - 顺带捎</title>
 <style type="text/css">
 body {
@@ -123,13 +125,13 @@ function MM_swapImage() { //v3.0
                   <td width="210" height="120" align="center" >&nbsp;<a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
                 </tr>
                 <tr>
-                  <td height="30" align="center"  class="a001">张三</td>
+                  <td height="30" align="center"  class="a001">李四</td>
                 </tr>
                 <tr>
                   <td height="30" align="center"  class="a002">德州 | 学生</td>
                 </tr>
                 <tr>
-                  <td height="76" align="center" ><a href="index-zzsdy.html"><img src="ima/捎带员/an002.png" name="Image1" width="160" height="36" id="Image1" onmouseover="MM_swapImage('Image1','','ima/捎带员/an003.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+                  <td height="76" align="center" ><a href="index-zysdy.html"><img src="ima/捎带员/an002.png" name="Image1" width="160" height="36" id="Image1" onmouseover="MM_swapImage('Image1','','ima/捎带员/an003.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
                 </tr>
               </table></td>
           </tr>
@@ -144,16 +146,16 @@ function MM_swapImage() { //v3.0
               <td width="210" height="510" align="center" valign="top" background="ima/捎带员/资料白色002.png"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="a003">
                 <tr>
                   <td width="14%" rowspan="5">&nbsp;</td>
-                  <td width="86%" height="45" valign="middle" class="a003"><a href="zzsdy-jd.html">我的接单</a></td>
+                  <td width="86%" height="45" valign="middle" class="a003"><a href="zysdy-jd.html">我的接单</a></td>
                 </tr>
                 <tr>
-                  <td height="45" valign="middle" class="a003"><a href="zzsdy-zd.html">我的账单</a></td>
+                  <td height="45" valign="middle" class="a003"><a href="zysdy-zd.html">我的账单</a></td>
                 </tr>
                 <tr>
-                  <td height="45"><a href="zzsdy-pj.html">给的评价</a></td>
+                  <td height="45"><a href="zysdy-pj.html">给的评价</a></td>
                 </tr>
                 <tr>
-                  <td height="45"><a href="zzsdy-zl.html">资料与账号</a></td>
+                  <td height="45"><a href="zysdy-zl.html">资料与账号</a></td>
                 </tr>
                 <tr>
                   <td height="40">&nbsp;</td>
@@ -165,8 +167,8 @@ function MM_swapImage() { //v3.0
         <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="21" height="67" background="ima/捎带员/资料白色003.png">&nbsp;</td>
-            <td width="106" background="ima/捎带员/资料白色003.png"><span class="a003">欢迎&nbsp;</span><span class="a005"><span class="youyuan">张三</span></span></td>
-            <td width="769" background="ima/捎带员/资料白色003.png"><span class="a003">身份</span>：<span class="youyuan">专职顺带员</span></td>
+            <td width="106" background="ima/捎带员/资料白色003.png"><span class="a003">欢迎&nbsp;</span><span class="a005"><span class="youyuan">李四</span></span></td>
+            <td width="769" background="ima/捎带员/资料白色003.png"><span class="a003">身份</span>：<span class="youyuan">自由顺带员</span></td>
           </tr>
         </table>
           <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -193,12 +195,12 @@ function MM_swapImage() { //v3.0
                         <tr>
                           <td width="355" align="right" valign="middle">账&nbsp;&nbsp;&nbsp;&nbsp;号</td>
                           <td width="16">&nbsp;</td>
-                          <td width="525" height="30"><input name="textfield" type="text" disabled="disabled" id="textfield" value="10001" readonly="readonly" /></td>
+                          <td width="525" height="30"><input name="textfield" type="text" disabled="disabled" id="textfield" value="10002" readonly="readonly" /></td>
                         </tr>
                         <tr>
                           <td align="right" valign="middle">姓&nbsp;&nbsp;&nbsp;&nbsp;名</td>
                           <td>&nbsp;</td>
-                          <td height="30"><input name="textfield2" type="text" id="textfield2" value="张三" /></td>
+                          <td height="30"><input name="textfield2" type="text" id="textfield2" value="李四" /></td>
                         </tr>
                         <tr>
                           <td align="right" valign="middle">出生年月</td>
@@ -206,8 +208,8 @@ function MM_swapImage() { //v3.0
                           <td height="30"><select name="select" id="select">
                             <option value="2000">2000</option>
                             <option value="1999">1999</option>
-                            <option value="1998">1998</option>
-                            <option value="1997" selected="selected">1997</option>
+                            <option value="1998" selected="selected">1998</option>
+                            <option value="1997">1997</option>
                             <option value="1996">1996</option>
                             <option value="1995">1995</option>
                             <option value="1994">1994</option>
@@ -220,7 +222,7 @@ function MM_swapImage() { //v3.0
                             年
                             <select name="select2" id="select2">
                               <option value="1">1</option>
-                              <option value="2">2</option>
+                              <option value="2" selected="selected">2</option>
                               <option value="3">3</option>
                               <option value="4">4</option>
                               <option value="5">5</option>
@@ -229,19 +231,19 @@ function MM_swapImage() { //v3.0
                               <option value="8">8</option>
                               <option value="9">9</option>
                               <option value="10">10</option>
-                              <option value="11" selected="selected">11</option>
+                              <option value="11">11</option>
                               <option value="12">12</option>
                             </select>
                             月
                             <select name="select3" id="select3">
                               <option>1</option>
                               <option>2</option>
-                              <option>3</option>
+                              <option selected="selected">3</option>
                               <option>4</option>
                               <option>5</option>
                               <option>6</option>
                               <option>7</option>
-                              <option selected="selected">8</option>
+                              <option>8</option>
                               <option>9</option>
                               <option>10</option>
                               <option>11</option>
@@ -304,26 +306,26 @@ function MM_swapImage() { //v3.0
                       <tr>
                         <td height="42" align="center" valign="middle"><img src="ima/捎带员/sfz001.png" width="42" height="42" /></td>
                         <td>身份证：</td>
-                        <td height="42">37142*************101X</td>
+                        <td height="42">37142*************4236</td>
                         <td>已绑定 &gt;</td>
                       </tr>
                       <tr>
                         <td width="6%" align="center" valign="middle"><img src="ima/weixin.png" width="42" height="42" /></td>
                         <td width="8%">微信：</td>
-                        <td width="71%" height="42">zhan****97</td>
+                        <td width="71%" height="42">lisi****98</td>
                         <td width="15%">已绑定 &gt;</td>
                       </tr>
                       <tr>
                         <td align="center" valign="middle"><img src="ima/tengxun.png" width="42" height="42" /></td>
                         <td>QQ：</td>
-                        <td height="42">795****156</td>
+                        <td height="42">865****143</td>
                         <td>已绑定 &gt;</td>
                       </tr>
                       <tr>
-                        <td align="center" valign="middle"><img src="ima/weibo1.png" width="42" height="42" /></td>
+                        <td align="center" valign="middle"><img src="ima/weibo.png" width="42" height="42" /></td>
                         <td>微博：</td>
-                        <td height="42">&nbsp;</td>
-                        <td>未绑定 &gt;</td>
+                        <td height="42">https://weibo.com/3220294605</td>
+                        <td>已绑定 &gt;</td>
                       </tr>
                     </table></td>
                   </tr>

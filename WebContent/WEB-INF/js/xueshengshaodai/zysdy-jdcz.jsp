@@ -1,7 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>捎带员 - 顺带捎</title>
 <style type="text/css">
 body {
@@ -106,13 +108,13 @@ function MM_swapImage() { //v3.0
 </script>
 </head>
 
-<body onload="MM_preloadImages('ima/捎带员/an003.png','ima/捎带员/an013.png','ima/捎带员/an015.png')">
+<body onload="MM_preloadImages('ima/捎带员/an003.png','ima/捎带员/an013.png','ima/捎带员/an015.png','ima/捎带员/an019.png')">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="65" height="50" bgcolor="#09F">&nbsp;</td>
-    <td width="84%" bgcolor="#09F"><span class="zi"><a href="../shouye.html">顺带捎</a>&nbsp; 丨&nbsp; 通行证</span></td>
-    <td width="5%" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="ima/捎带员/tx001.png" width="49" height="49" /></a></td>
-    <td width="5%" align="center" valign="middle" bgcolor="#09F"><a href="index-dl-zysdy.html"><span class="zi"> 注销</span></a></td>
+    <td width="72" height="50" bgcolor="#09F">&nbsp;</td>
+    <td width="920" bgcolor="#09F"><span class="zi"><a href="../shouye.html">顺带捎&nbsp;</a> 丨&nbsp; 通行证</span></td>
+    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="ima/捎带员/tx001.png" width="49" height="49" /></a></td>
+    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="index-dl-zysdy.html"><span class="zi"> 注销</span></a></td>
   </tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -210,7 +212,7 @@ function MM_swapImage() { //v3.0
                     <td width="285" height="100" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
                         <td width="34%" height="100" rowspan="4" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
-                        <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">郭*</span></td>
+                        <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">王*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">订单人&nbsp;</span></td>
                       </tr>
                       <tr>
@@ -228,11 +230,11 @@ function MM_swapImage() { //v3.0
                     <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
                         <td width="34%" height="100" rowspan="4" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
-                        <td width="35%" valign="middle">&nbsp;&nbsp;<span class="a005">木桶饭</span></td>
+                        <td width="35%" valign="middle">&nbsp;&nbsp;<span class="a005">张记黄焖鸡</span></td>
                         <td width="31%" align="right" valign="middle" class="a004"><span class="juli">提供人&nbsp;</span></td>
                       </tr>
                       <tr>
-                        <td colspan="2" valign="middle">&nbsp;&nbsp;<span class="dizhi">德州学院 3餐 1楼 9号窗</span></td>
+                        <td colspan="2" valign="middle">&nbsp;&nbsp;<span class="dizhi">德州学院 3餐 2楼 7号窗</span></td>
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;</td>
@@ -254,7 +256,7 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;</td>
-                        <td rowspan="2" align="right" valign="middle">&nbsp;</td>
+                        <td rowspan="2" align="right" valign="middle"><img src="ima/捎带员/an018.png" name="Image41" width="70" height="36" id="Image41" onmouseover="MM_swapImage('Image41','','ima/捎带员/an019.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;</td>
@@ -276,13 +278,13 @@ function MM_swapImage() { //v3.0
                         <td width="9" height="300" rowspan="6">&nbsp;</td>
                         <td width="9" height="100" rowspan="2">&nbsp;</td>
                         <td width="49" rowspan="2"><a href="#"><img src="ima/捎带员/tx001.png" width="45" height="45" /></a></td>
-                        <td width="362" valign="bottom"><span class="a005">&nbsp;郭*</span></td>
+                        <td width="362" valign="bottom"><span class="a005">&nbsp;王*</span></td>
                         <td width="39" valign="bottom"><span class="a004">17:15</span></td>
                         <td colspan="3">&nbsp;</td>
                         <td width="17" rowspan="6">&nbsp;</td>
                       </tr>
                       <tr>
-                        <td valign="top" class="a005"> &nbsp;<span class="a004"><span class="dizhi"><span class="a005"><span class="dizhi">不要放花生</span></span></span></span></td>
+                        <td valign="top" class="a005"> &nbsp;<span class="a004"><span class="dizhi"><span class="a005"><span class="dizhi">可以的话带点醋</span></span></span></span></td>
                         <td valign="top" class="a005">&nbsp;</td>
                         <td colspan="3">&nbsp;</td>
                       </tr>
@@ -295,17 +297,17 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td>&nbsp;</td>
-                        <td align="right" valign="top"><span class="dizhi">恩恩，好的。&nbsp;</span></td>
+                        <td align="right" valign="top"><span class="dizhi">好的&nbsp;</span></td>
                       </tr>
                       <tr>
                         <td rowspan="2">&nbsp;</td>
                         <td rowspan="2"><a href="#"><img src="ima/捎带员/tx001.png" width="45" height="45" /></a></td>
-                        <td valign="bottom">&nbsp;<span class="a005">木桶饭</span></td>
+                        <td valign="bottom">&nbsp;<span class="a005">张记黄焖鸡</span></td>
                         <td><span class="a004">17:16</span></td>
                         <td colspan="3" rowspan="2">&nbsp;</td>
                       </tr>
                       <tr>
-                        <td valign="top">&nbsp;<span class="dizhi">好的</span><span class="a005">。</span></td>
+                        <td valign="top">&nbsp;<span class="dizhi">恩恩，好的</span><span class="a005">。</span></td>
                         <td>&nbsp;</td>
                         </tr>
                     </table></td>

@@ -1,7 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>捎带员 - 顺带捎</title>
 <style type="text/css">
 body {
@@ -76,10 +78,6 @@ a:active {
 	font-family: "华文细黑";
 	font-size: 14px;
 }
-.liaotiankuang {
-	font-family: "微软雅黑";
-	font-size: 36px;
-}
 </style>
 <script type="text/javascript">
 function MM_preloadImages() { //v3.0
@@ -106,7 +104,7 @@ function MM_swapImage() { //v3.0
 </script>
 </head>
 
-<body onload="MM_preloadImages('ima/捎带员/an003.png','ima/捎带员/an013.png','ima/捎带员/an015.png','ima/捎带员/an019.png')">
+<body onload="MM_preloadImages('ima/捎带员/an003.png','ima/捎带员/an007.png')">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="65" height="50" bgcolor="#09F">&nbsp;</td>
@@ -186,7 +184,7 @@ function MM_swapImage() { //v3.0
             <tr>
               <td height="700" valign="top" background="ima/捎带员/"><table width="100%" border="0" cellspacing="0" cellpadding="0">
                   <tr>
-                    <td><span class="a004">接单操作：</span></td>
+                    <td><span class="a004">以下已接单：</span></td>
                   </tr>
                 </table>
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -195,138 +193,48 @@ function MM_swapImage() { //v3.0
                   </tr>
                 </table>
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                  <tr>
-                    <td>&nbsp;</td>
-                    <td height="50" colspan="5" align="center" valign="middle" background="ima/捎带员/资料白色005.png" class="liaotiankuang">聊天框</td>
-                    <td>&nbsp;</td>
-                  </tr>
-                  <tr>
-                    <td>&nbsp;</td>
-                    <td colspan="5" align="center" valign="middle" class="liaotiankuang"><span class="a001"></span></td>
-                    <td>&nbsp;</td>
-                  </tr>
                   <tr>
                     <td width="10">&nbsp;</td>
                     <td width="285" height="100" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
                         <td width="34%" height="100" rowspan="4" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">孙*</span></td>
-                        <td width="33%" align="right" valign="middle" class="a004"><span class="juli">订单人&nbsp;</span></td>
+                        <td width="33%" align="right" valign="middle" class="a004"><span class="juli">0.65km&nbsp;</span></td>
                       </tr>
                       <tr>
-                        <td colspan="2" valign="middle">&nbsp;&nbsp;</td>
+                        <td colspan="2" valign="middle">&nbsp;&nbsp;<span class="dizhi">德州学院 北校区 2号楼</span></td>
                       </tr>
                       <tr>
-                        <td valign="middle">&nbsp;&nbsp;</td>
-                        <td rowspan="2" align="right" valign="middle"><img src="ima/捎带员/an012.png" name="Image2" width="70" height="36" id="Image2" onmouseover="MM_swapImage('Image2','','ima/捎带员/an013.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：<span class="dizhi">￥2</span></span></td>
+                        <td rowspan="2" align="right" valign="middle"><a href="zzsdy-jdcz.html"><img src="ima/捎带员/an006.png" name="Image2" width="70" height="36" id="Image2" onmouseover="MM_swapImage('Image2','','ima/捎带员/an007.png',1)" onmouseout="MM_swapImgRestore()" /></a>&nbsp;</td>
                       </tr>
                       <tr>
-                        <td valign="middle">&nbsp;&nbsp;</td>
+                        <td valign="middle">&nbsp;&nbsp;<span class="dengdai">已等待4分钟</span></td>
                       </tr>
                     </table></td>
                     <td width="10" >&nbsp;</td>
                     <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
                         <td width="34%" height="100" rowspan="4" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
-                        <td width="35%" valign="middle">&nbsp;&nbsp;<span class="a005">刘记黄焖鸡</span></td>
-                        <td width="31%" align="right" valign="middle" class="a004"><span class="juli">提供人&nbsp;</span></td>
+                        <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">刘*</span></td>
+                        <td width="33%" align="right" valign="middle" class="a004"><span class="juli">1.05km&nbsp;</span></td>
                       </tr>
                       <tr>
-                        <td colspan="2" valign="middle">&nbsp;&nbsp;<span class="dizhi">德州学院 3餐 2楼 11号窗</span></td>
+                        <td colspan="2" valign="middle">&nbsp;&nbsp;<span class="dizhi">德州学院 北校区 13号楼</span></td>
                       </tr>
                       <tr>
-                        <td valign="middle">&nbsp;&nbsp;</td>
-                        <td rowspan="2" align="right" valign="middle"><img src="ima/捎带员/an012.png" name="Image31" width="70" height="36" id="Image31" onmouseover="MM_swapImage('Image31','','ima/捎带员/an013.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
+                        <td rowspan="2" align="right" valign="middle"><a href="zzsdy-jdczl.html"><img src="ima/捎带员/an006.png" name="Image31" width="70" height="36" id="Image31" onmouseover="MM_swapImage('Image31','','ima/捎带员/an007.png',1)" onmouseout="MM_swapImgRestore()" /></a>&nbsp;</td>
                       </tr>
                       <tr>
-                        <td valign="middle">&nbsp;</td>
-                      </tr>
-                    </table></td>
-                    <td width="10">&nbsp;</td>
-                    <td width="285"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0" background="ima/捎带员/资料白色005.png">
-                      <tr>
-                        <td width="34%" height="100" rowspan="4" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
-                        <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">张三</span></td>
-                        <td width="33%" align="right" valign="middle" class="a004"><span class="juli">顺带员&nbsp;</span></td>
-                      </tr>
-                      <tr>
-                        <td colspan="2" valign="middle">&nbsp;&nbsp;</td>
-                      </tr>
-                      <tr>
-                        <td valign="middle">&nbsp;&nbsp;</td>
-                        <td rowspan="2" align="right" valign="middle"><img src="ima/捎带员/an018.png" name="Image41" width="70" height="36" id="Image41" onmouseover="MM_swapImage('Image41','','ima/捎带员/an019.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
-                      </tr>
-                      <tr>
-                        <td valign="middle">&nbsp;</td>
+                        <td valign="middle">&nbsp;&nbsp;<span class="dengdai">已等待7分钟</span></td>
                       </tr>
                     </table></td>
                     <td width="10">&nbsp;</td>
-                  </tr>
-              </table>
-                <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                  <tr>
-                    <td>&nbsp;</td>
-                  </tr>
-                </table>
-                <table width="895" border="0" cellspacing="0" cellpadding="0">
-                  <tr align="center" valign="top">
-                    <td width="10">&nbsp;</td>
-                    <td width="867" height="320" background="ima/捎带员/白色文本框002.png"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
-                      <tr>
-                        <td width="9" height="300" rowspan="6">&nbsp;</td>
-                        <td width="9" height="100" rowspan="2">&nbsp;</td>
-                        <td width="49" rowspan="2"><a href="#"><img src="ima/捎带员/tx001.png" width="45" height="45" /></a></td>
-                        <td width="362" valign="bottom"><span class="a005">&nbsp;孙*</span></td>
-                        <td width="39" valign="bottom"><span class="a004">17:15</span></td>
-                        <td colspan="3">&nbsp;</td>
-                        <td width="17" rowspan="6">&nbsp;</td>
-                      </tr>
-                      <tr>
-                        <td valign="top" class="a005"> &nbsp;<span class="a004"><span class="dizhi"><span class="a005"><span class="dizhi">可以的话麻烦快点。。</span></span></span></span></td>
-                        <td valign="top" class="a005">&nbsp;</td>
-                        <td colspan="3">&nbsp;</td>
-                      </tr>
-                      <tr>
-                        <td height="100" colspan="3" rowspan="2">&nbsp;</td>
-                        <td><span class="a004">17:15</span></td>
-                        <td width="332" align="right" valign="bottom">&nbsp;<span class="a005">张三</span>&nbsp;</td>
-                        <td width="49" rowspan="2"><a href="#"><img src="ima/捎带员/tx001.png" width="45" height="45" /></a></td>
-                        <td width="8" rowspan="2">&nbsp;</td>
-                      </tr>
-                      <tr>
-                        <td>&nbsp;</td>
-                        <td align="right" valign="top"><span class="dizhi">好的，我会尽快的&nbsp;</span></td>
-                      </tr>
-                      <tr>
-                        <td rowspan="2">&nbsp;</td>
-                        <td rowspan="2"><a href="#"><img src="ima/捎带员/tx001.png" width="45" height="45" /></a></td>
-                        <td valign="bottom">&nbsp;<span class="a005">刘记黄焖鸡</span></td>
-                        <td><span class="a004">17:16</span></td>
-                        <td colspan="3" rowspan="2">&nbsp;</td>
-                      </tr>
-                      <tr>
-                        <td valign="top">&nbsp;<span class="dizhi">恩恩，好的</span><span class="a005">。</span></td>
-                        <td>&nbsp;</td>
-                        </tr>
-                    </table></td>
+                    <td width="285">&nbsp;</td>
                     <td width="10">&nbsp;</td>
                   </tr>
-                </table>
-                <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                  <tr>
-                    <td>&nbsp;</td>
-                  </tr>
-                </table>
-                <form id="form1" name="form1" method="post" action="">
-                  <table width="895" border="0" cellspacing="0" cellpadding="0">
-                    <tr>
-                      <td width="5">&nbsp;</td>
-                      <td width="800" height="50" background="ima/捎带员/资料白色007.png">&nbsp;                        <input name="textfield" type="text" id="textfield" size="122" /></td>
-                      <td width="120" align="center" valign="middle" background="ima/捎带员/资料白色007.png"><img src="ima/捎带员/an014.png" name="Image3" width="40" height="22" id="Image3" onmouseover="MM_swapImage('Image3','','ima/捎带员/an015.png',1)" onmouseout="MM_swapImgRestore()" /></td>
-                      <td width="6">&nbsp;</td>
-                    </tr>
-                  </table>
-                </form></td>
+              </table></td>
             </tr>
           </table></td>
       </tr>
