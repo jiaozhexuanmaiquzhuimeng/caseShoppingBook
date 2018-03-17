@@ -175,8 +175,15 @@ a:active {
 												</tr>
 												<tr>
 													<td colspan="2" align="center" class="a001"><p>
-															<br />
-														</p></td>
+															
+															<label>
+                        <input type="radio" name="radio" id="sellerid" value="sellerid" />
+                        卖家</label>
+                   
+                      <label>&nbsp;&nbsp;
+                        <input type="radio" name="radio" id="sellerid2" value="sellerid" />
+                        买家</label>
+							<br/>							</p></td>
 												</tr>
 												<tr>
 													<td height="15" colspan="2" align="center"><a
