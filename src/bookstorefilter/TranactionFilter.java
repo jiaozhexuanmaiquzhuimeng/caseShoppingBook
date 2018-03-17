@@ -44,24 +44,24 @@ public class TranactionFilter implements Filter {
 		Connection connection = null;
 		
 		try {
-			//获取链接
+			//锟斤拷取锟斤拷锟斤拷
 			connection = JDBCUtils.getConnection();
 			
-			//开启事务
+			//锟斤拷锟斤拷锟斤拷锟斤拷
 			connection.setAutoCommit(false);
 			
-			//利用ThreadLocad，将当前连接和线程绑定
+			//锟斤拷锟斤拷ThreadLocad锟斤拷锟斤拷锟斤拷前锟斤拷锟接猴拷锟竭程帮拷
 			ConnectionContext.getInstance().bind(connection);
 			
-			//把请求转给目标Servlet
+			//锟斤拷锟斤拷锟斤拷转锟斤拷目锟斤拷Servlet
 			chain.doFilter(request, response);
 			
-			//提交事务
+			//锟结交锟斤拷锟斤拷
 			connection.commit();
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
-			//回滚事务
+			//锟截癸拷锟斤拷锟斤拷
 			try {
 				connection.rollback();
 			} catch (SQLException e1) {
@@ -73,10 +73,8 @@ public class TranactionFilter implements Filter {
 			resp.sendRedirect(request2.getContextPath()+"/error-1.jsp");
 			
 		}finally {
-			//解除绑定
 			ConnectionContext.getInstance().remove();
 			
-			//关闭连接
 			JDBCUtils.releaseConnection(connection);
 		}
 	}
