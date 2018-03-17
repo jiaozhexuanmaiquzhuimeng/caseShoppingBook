@@ -45,7 +45,7 @@ public class UserServlet extends HttpServlet {
 	
 	public void loginPage(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException{
-		request.getRequestDispatcher("/WEB-INF/js/xueshengshaodai/index-dl.jsp").forward(request, response);
+		request.getRequestDispatcher("/WEB-INF/js/xueshengshaodai/index-dI.jsp").forward(request, response);
 	}
 
 }
