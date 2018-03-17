@@ -1,7 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>用户登录 - 通行证 - 顺带捎</title>
 <style type="text/css">
 body {
@@ -79,7 +81,6 @@ function MM_swapImage() { //v3.0
 }
 </script>
 </head>
-
 <body onload="MM_preloadImages('ima/an002.png','ima/tengxun.png','ima/weixin.png','ima/weibo.png')">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
@@ -158,5 +159,6 @@ function MM_swapImage() { //v3.0
     </table></td>
   </tr>
 </table>
+</body>
 </body>
 </html>
