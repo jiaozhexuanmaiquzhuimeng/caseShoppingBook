@@ -164,14 +164,14 @@ a:active {
 													<td height="25" colspan="2" align="center" valign="middle"
 														class="a001"><label for="textfield"></label> <img
 														src="ima/yh001.png" width="16" height="16" /> <input
-														type="text" name="textfield" id="textfield" /></td>
+														type="text" name="uesername" id="username" /></td>
 													<td width="9%" rowspan="5">&nbsp;</td>
 												</tr>
 												<tr>
 													<td height="25" colspan="2" align="center" valign="middle"
 														class="a001"><img src="ima/mm001.png" width="16"
-														height="16" /> <input type="password" name="textfield2"
-														id="textfield2" /></td>
+														height="16" /> <input type="password" name="password"
+														id="password" /></td>
 												</tr>
 												<tr>
 													<td colspan="2" align="center" class="a001"><p>
