@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+
+}
+.c {
+	color: #D6D6D6;
+	font-size: 12px;
+}
+.吃 {
+	font-weight: bold;
+}
+.c2 {
+}
+.c1 {
+	font-weight: bold;
+	font-size: 24px;
+}
+.餐 {
+	font-size: 16px;
+}
+.c3 {
+	color: #F00;
+}
+.img{
+	padding-right:15px;}
+.c4 {
+	font-size: 22px;
+}
+.a{
+	background-color:#E1E1E1;
+	width:800px;
+	height:100px;}
+.a table tr td {
+	font-size: 14px;
+}
+.吃 {
+	color: #F00;
+}
+.a2 {
+	font-size: 22px;
+	color: #F00;
+}
+#提现 {
+	font-size: 22px;
+	color: #FFF;
+	background-color: #06F;
+}
+.b1 {
+	text-align: center;
+}
+.n1 {
+	text-align: center;
+}
+.n2{
+	width:850px;
+	height:30px;
+	background-color:#CCC;
+	font-size: 18;
+	text-align: center;
+}
+.n3{
+	width: 25%;
+	text-align: center;}
+.n2 table {
+	color: #0CF;
+}
+.n2 table {
+	color: #000;
+}
+.m {
+	font-size: 16px;
+}
+.m {
+	font-size: 14px;
+	color: #000;
+}
+.n2 table {
+	font-size: 16px;
+}
+.c {
+	font-size: 14px;
+}
+.n2 table {
+	font-size: 14px;
+}
+</style>
+	<title></title>
+</head>
+<body>
+<p class="z2">
+<nav id="nav">
+<h3 class="c4" ng-if="pageTitleVisible">账户余额</h3>
+<hr>
+<div class="a">
+  <table width="556" border="0">
+    <tr>
+      <td colspan="3">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="139" height="35">当前账户余额：</td>
+      <td width="45"><span class="a2">0</span> 元      </td>
+      <td width="358"><form name="form1" method="post" action="">
+        <input type="submit" name="提现" id="提现" value="提现">
+      </form></td>
+    </tr>
+    <tr>
+      <td height="30" colspan="3">&nbsp;</td>
+    </tr>
+  </table>
+</div>
+<br/>
+<table width="802" border="0">
+  <tr>
+    <td width="106" align="center" valign="middle"><span class="m">账户资产明细</span></td>
+    <td width="60" align="center" valign="middle">&nbsp;</td>
+    <td width="60" align="center" valign="middle">&nbsp;</td>
+    <td width="80" align="center" valign="middle">&nbsp;</td>
+    <td width="143" align="center" valign="middle">&nbsp;</td>
+    <td width="109" align="center" valign="middle">&nbsp;</td>
+    <td width="87" align="center" valign="middle">&nbsp;</td>
+    <td width="105" align="center" valign="middle">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle"><span class="m">分类</span></td>
+    <td align="center" valign="middle"><span class="m"><a href="javascript:" ng-repeat="item in data" ng-class="{'active': item.val === selected}" ng-bind="item.key" ng-click="choose(item)">全部</a></span></td>
+    <td align="center" valign="middle"><span class="m"><a href="javascript:" ng-repeat="item in data" ng-class="{'active': item.val === selected}" ng-bind="item.key" ng-click="choose(item)">充值</a></span></td>
+    <td align="center" valign="middle"><span class="m"><a href="javascript:" ng-repeat="item in data" ng-class="{'active': item.val === selected}" ng-bind="item.key" ng-click="choose(item)">余额消费</a></span></td>
+    <td align="center" valign="middle"><span class="m"><a href="javascript:" ng-repeat="item in data" ng-class="{'active': item.val === selected}" ng-bind="item.key" ng-click="choose(item)">第三方支付消费</a></span></td>
+    <td align="center" valign="middle"><span class="m"><a href="javascript:" ng-repeat="item in data" ng-class="{'active': item.val === selected}" ng-bind="item.key" ng-click="choose(item)">支付失败退款</a></span></td>
+    <td align="center" valign="middle"><span class="m"><a href="javascript:" ng-repeat="item in data" ng-class="{'active': item.val === selected}" ng-bind="item.key" ng-click="choose(item)">订单退款</a></span></td>
+    <td align="center" valign="middle"><span class="m"><a href="javascript:" ng-repeat="item in data" ng-class="{'active': item.val === selected}" ng-bind="item.key" ng-click="choose(item)">提现</a></span></td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle"><span class="m">时间</span></td>
+    <td align="center" valign="middle"><span class="m"><a href="#">今天</a></span></td>
+    <td align="center" valign="middle"><span class="m"><a href="#">近7天</a></span></td>
+    <td align="center" valign="middle"><span class="m"><a href="#">近15天</a></span></td>
+    <td align="center" valign="middle"><span class="m"><a href="#">近1个月</a></span></td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td align="center" valign="middle">&nbsp;</td>
+  </tr>
+</table>
+<div class="n2">
+  <table width="850" border="0" >
+    <tr>
+      <td width="210" height="31" align="center" valign="middle">创建时间</td>
+      <td width="210" align="center" valign="middle">交易类型	</td>
+      <td width="210" align="center" valign="middle">金额变更</td>
+      <td width="220" align="center" valign="middle">余额</td>
+    </tr>
+  </table>
+  <p><span class="z2"><img src="../images/dingdan/yue.png" width="850" height="309"></span></p>
+</div>
+</body>
+</html>

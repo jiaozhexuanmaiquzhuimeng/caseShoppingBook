@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+
+}
+.c {
+	color: #D6D6D6;
+	font-size: 12px;
+}
+.吃 {
+	font-weight: bold;
+}
+.c2 {
+}
+.c1 {
+	font-weight: bold;
+	font-size: 22px;
+}
+.餐 {
+	font-size: 16px;
+}
+.c3 {
+	color: #F00;
+}
+.img{
+	padding-right:15px;}
+#立即绑定 {
+	font-size: 16px;
+	background-color: #F03;
+	color: #FFF;
+}
+.q {
+	font-size: 12px;
+	color: #C60;
+}
+.q1 {
+	font-size: 14px;
+}
+.q1 {
+	font-size: 14px;
+}
+.q2 {
+	font-size: 14px;
+	color: #999;
+}
+</style>
+	<title></title>
+</head>
+<body>
+<p class="z2">
+<nav id="nav">
+<h3 ng-if="pageTitleVisible"><span ng-bind="pageTitle">安全中心</span></h3>
+<hr>
+<div class="img"></div>
+<table width="850" height="511" border="0">
+  <tr>
+    <td width="66" height="63" align="center" valign="middle"><img src="../images/dingdan/FOMAVTSLTP1D9QYB~BDPL8I.png" width="43" height="39"></td>
+    <td width="140" align="center" valign="middle">安全等级：</td>
+    <td width="246" class="q">&nbsp;<img src="../images/dingdan/SH{GL67HTV0$KLMSGA)K{32.png" width="211" height="33">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td width="291" class="q">&nbsp; 建议你启动全部安全设置，以保障账户及资金安全！</td>
+    <td width="85">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="86" align="center" valign="middle"><img src="../images/dingdan/FOMAVTSLTP1D9QYB~BDPL8I.png" width="43" height="39"><br></td>
+    <td align="center" valign="middle"><span ng-class="item.status || 'security-type-name-weak'" ng-bind="item.name">登录密码：</span></td>
+    <td colspan="2" class="q1">互联网存在被盗风险，建议您定期更改密码以保护安全。</td>
+    <td><a target="" ng-href="/profile/security/changepassword" ng-class="item.status ? 'btn-link' : 'btn-stress'" ng-bind="item.text.link" href="#">更改密码</a></td>
+  </tr>
+  <tr>
+    <td height="111" align="center" valign="middle"><img src="../images/dingdan/FOMAVTSLTP1D9QYB~BDPL8I.png" alt="" width="43" height="39"><br></td>
+    <td align="center" valign="middle"><span ng-class="item.status || 'security-type-name-weak'" ng-bind="item.name">手机验证：</span></td>
+    <td colspan="2">已绑定手机 178*********</td>
+    <td><a href="#">更换手机</a></td>
+  </tr>
+  <tr>
+    <td height="106" align="center" valign="middle"><img src="../images/dingdan/PGB85IHOPEW3X_T@N()NJOY.png" width="49" height="49"><br></td>
+    <td align="center" valign="middle"><span ng-class="item.status || 'security-type-name-weak'" ng-bind="item.name">邮箱激活：</span></td>
+    <td colspan="2"><p class="q1" ng-bind="item.text.text">您还没有绑定邮箱</p>
+    <p class="q1" ng-if="item.text.textMore" ng-bind-html="item.text.textMore | toTrusted"><span class="q2">验证后可用户快速找回密码，接受账户提醒邮件。</span></p></td>
+    <td><form name="form1" method="post" action="">
+      <input type="submit" name="立即绑定" id="立即绑定" value="立即绑定">
+    </form></td>
+  </tr>
+  <tr>
+    <td height="133" align="center" valign="middle"><img src="../images/dingdan/FOMAVTSLTP1D9QYB~BDPL8I.png" alt="" width="43" height="39"></td>
+    <td align="center" valign="middle">支付额度：</td>
+    <td colspan="2"><p class="q1" ng-bind="item.text.text">已设定支付额 50 元</p>
+    <p class="q1" ng-if="item.text.textMore" ng-bind-html="item.text.textMore | toTrusted"><span class="q2">如果当日在线订餐金额超出支付额度，手机验证后才可以付款。</span></p></td>
+    <td><a href="#">更改额度</a></td>
+  </tr>
+</table>
+</body>
+</html>
