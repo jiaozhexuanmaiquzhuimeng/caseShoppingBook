@@ -1,10 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>用户登录 - 通行证 - 顺带捎</title>
+<title>ç¨æ·ç»å½ - éè¡è¯ - é¡ºå¸¦æ</title>
 <style type="text/css">
 body {
 	margin-left: 0px;
@@ -12,14 +12,14 @@ body {
 	margin-right: 0px;
 	margin-bottom: 100px;
 	background-image: url(ima/bj007.png);
-	font-family: "幼圆";
+	font-family: "å¹¼å";
 }
 .a001 {
 }
 .b001 {
 	font-size: 45px;
 	font-weight: bold;
-	font-family: "幼圆";
+	font-family: "å¹¼å";
 }
 a:link {
 	text-decoration: none;
@@ -36,14 +36,14 @@ a:hover {
 a:active {
 	text-decoration: none;
 	color: #F93;
-	font-family: "幼圆";
+	font-family: "å¹¼å";
 }
 .a002 {
 	color: #666;
-	font-family: "幼圆";
+	font-family: "å¹¼å";
 }
 .a001 {
-	font-family: "幼圆";
+	font-family: "å¹¼å";
 }
 .q {	height:1400px;
 	width:1024px;
@@ -85,7 +85,7 @@ function MM_swapImage() { //v3.0
 <body onload="MM_preloadImages('ima/an002.png','ima/tengxun.png','ima/weixin.png','ima/weibo.png')">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td height="50" bgcolor="#09F"><span class="q">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="zi"><a href="../shouye.html">顺带捎&nbsp;</a> 丨&nbsp; 通行证</span></span></td>
+    <td height="50" bgcolor="#09F"><span class="q">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="zi"><a href="../shouye.html">é¡ºå¸¦æ&nbsp;</a> ä¸¨&nbsp; éè¡è¯</span></span></td>
   </tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -97,10 +97,10 @@ function MM_swapImage() { //v3.0
   <tr>
     <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
       <tr>
-        <td height="550" align="center" valign="middle" background="ima/白色003.png"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <td height="550" align="center" valign="middle" background="ima/ç½è²003.png"><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
-              <td align="center" class="a001"><p><span class="b001">顺带捎</span></p>
-                <p>登录顺带捎，方便你我他！</p></td>
+              <td align="center" class="a001"><p><span class="b001">é¡ºå¸¦æ</span></p>
+                <p>ç»å½é¡ºå¸¦æï¼æ¹ä¾¿ä½ æä»ï¼</p></td>
             </tr>
         </table>
           <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
@@ -129,10 +129,10 @@ function MM_swapImage() { //v3.0
                     <td width="41%" height="15" align="center"><p>
                       <label>
                         <input type="checkbox" name="CheckboxGroup1" value="automatic " id="CheckboxGroup1_0" />
-                        下次自动登录</label>
+                        ä¸æ¬¡èªå¨ç»å½</label>
                       <br />
                     </p></td>
-                    <td width="42%" height="15" align="center"><a href="#" class="a001">忘记密码</a>丨<a href="#" class="a001">注册</a></td>
+                    <td width="42%" height="15" align="center"><a href="#" class="a001">å¿è®°å¯ç </a>ä¸¨<a href="#" class="a001">æ³¨å</a></td>
                   </tr>
                 </table>
               </form></td>
@@ -145,7 +145,7 @@ function MM_swapImage() { //v3.0
           </table>
           <table width="100%" border="0" cellspacing="0" cellpadding="0">
             <tr>
-              <td height="30" align="center" class="a002">第三方账号登录</td>
+              <td height="30" align="center" class="a002">ç¬¬ä¸æ¹è´¦å·ç»å½</td>
             </tr>
             <tr>
               <td height="20" align="center">&nbsp;</td>
