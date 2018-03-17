@@ -43,9 +43,18 @@ public class UserServlet extends HttpServlet {
 		}
 	}
 	
+	//用户登陆页面
 	public void loginPage(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException{
 		request.getRequestDispatcher("/WEB-INF/js/xueshengshaodai/index-dI.jsp").forward(request, response);
 	}
+	
+	//点击登陆链接到首页
+	public void indexPage(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException{
+		request.getRequestDispatcher("/WEB-INF/js/shouye.jsp").forward(request, response);
+	}
+	
+	
 
 }

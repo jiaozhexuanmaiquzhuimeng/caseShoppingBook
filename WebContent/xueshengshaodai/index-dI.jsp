@@ -156,7 +156,7 @@ a:active {
 							<table width="100%" border="0" align="center" cellpadding="0"
 								cellspacing="0">
 								<tr>
-									<td><form id="form1" name="form1" method="post" action="">
+									<td><form id="form1" name="form1" method="post" action="/userServlet?method=indexPage">
 											<table width="100%" border="0" align="center" cellpadding="0"
 												cellspacing="0">
 												<tr>
@@ -180,7 +180,7 @@ a:active {
 												</tr>
 												<tr>
 													<td height="15" colspan="2" align="center"><a
-														href="../shouye.html"><img src="ima/an001.png"
+														href="/caseShoppingBook/userServlet?method=indexPage"><img src="ima/an001.png"
 															width="336" height="42" id="Image1"
 															onmouseover="MM_swapImage('Image1','','ima/an002.png',1)"
 															onmouseout="MM_swapImgRestore()" /></a></td>
