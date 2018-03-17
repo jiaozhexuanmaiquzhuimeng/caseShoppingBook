@@ -3,9 +3,9 @@
 	<named-config name="javawebapp">
 
 		<property name="user">root</property>
-		<property name="password">L090800</property>
+		<property name="password">admin</property>
 		<property name="driverClass">com.mysql.jdbc.Driver</property>
-		<property name="jdbcUrl">jdbc:mysql:///bookstore</property>
+		<property name="jdbcUrl">jdbc:mysql:///sds</property>
 
 		<property name="acquireIncrement">5</property>
 		<property name="initialPoolSize">10</property>

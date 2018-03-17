@@ -1,27 +1,55 @@
 package bookstore.domain;
 
 public class Account {
-	private Integer accoundId;
-	private int balance;
-	public Integer getAccoundId() {
-		return accoundId;
+	private int id;
+	private float money;
+	private String userName;
+	private String passWord;
+	private int userId;
+	
+	public int getId() {
+		return id;
 	}
-	public void setAccoundId(Integer accoundId) {
-		this.accoundId = accoundId;
+	public void setId(int id) {
+		this.id = id;
 	}
-	public int getBalance() {
-		return balance;
+	public float getMoney() {
+		return money;
 	}
-	public void setBalance(int balance) {
-		this.balance = balance;
+	public void setMoney(float money) {
+		this.money = money;
 	}
-	@Override
-	public String toString() {
-		return "Account [accoundId=" + accoundId + ", balance=" + balance + "]";
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	public String getPassWord() {
+		return passWord;
+	}
+	public void setPassWord(String passWord) {
+		this.passWord = passWord;
+	}
+	public int getUserId() {
+		return userId;
+	}
+	public void setUserId(int userId) {
+		this.userId = userId;
+	}
+	
+	public Account(int id, float money, String userName, String passWord, int userId) {
+		super();
+		this.id = id;
+		this.money = money;
+		this.userName = userName;
+		this.passWord = passWord;
+		this.userId = userId;
 	}
 	public Account() {
 		super();
+		// TODO Auto-generated constructor stub
 	}
 	
-
+	
 }
