@@ -57,6 +57,8 @@ public class UserServlet extends HttpServlet {
 	//点击登陆链接到首页
 	public void indexPage(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException{
+		
+		
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		System.out.println(username);
