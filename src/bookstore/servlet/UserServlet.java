@@ -9,6 +9,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import bookstore.domain.Person;
+import bookstore.service.UserService;
+
 
 /**
  * @author Guozhen_Zhao
@@ -49,10 +52,25 @@ public class UserServlet extends HttpServlet {
 		request.getRequestDispatcher("/WEB-INF/js/xueshengshaodai/index-dI.jsp").forward(request, response);
 	}
 	
+	UserService userService = new UserService();
+
 	//点击登陆链接到首页
 	public void indexPage(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException{
-		request.getRequestDispatcher("/WEB-INF/js/shouye.jsp").forward(request, response);
+		String username = request.getParameter("username");
+		String password = request.getParameter("password");
+		System.out.println(username);
+		System.out.println(password);
+		Person person = new Person();
+		person.setUserName(username);
+		person.setPassWord(password);
+		Long i = userService.login(person);
+		
+		if (i==1) {
+			request.getRequestDispatcher("/WEB-INF/js/shouye.jsp").forward(request, response);
+		}else{
+			response.sendRedirect(request.getContextPath()+"/index.jsp");
+		}
 	}
 	
 	

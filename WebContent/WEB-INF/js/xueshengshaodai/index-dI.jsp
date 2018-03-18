@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>用户登录 - 通行证 - 顺带捎</title>
@@ -67,6 +67,19 @@ a:active {
 	font-size: 16px;
 	font-family: "MS Serif", "New York", serif;
 	font-weight: bolder;
+}
+
+.btn-login{
+	width: 336px;
+	height: 42px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	background-image: url("ima/an001.png");
+}
+.btn-login:HOVER {
+	cursor: pointer;
+	background-image: url("ima/an002.png");
 }
 </style>
 <script type="text/javascript">
@@ -156,7 +169,7 @@ a:active {
 							<table width="100%" border="0" align="center" cellpadding="0"
 								cellspacing="0">
 								<tr>
-									<td><form id="form1" name="form1" method="post" action="/userServlet?method=indexPage">
+									<td><form id="form1" name="form1" method="post" action="userServlet?method=indexPage">
 											<table width="100%" border="0" align="center" cellpadding="0"
 												cellspacing="0">
 												<tr>
@@ -164,7 +177,7 @@ a:active {
 													<td height="25" colspan="2" align="center" valign="middle"
 														class="a001"><label for="textfield"></label> <img
 														src="ima/yh001.png" width="16" height="16" /> <input
-														type="text" name="uesername" id="username" /></td>
+														type="text" name="username" id="username" /></td>
 													<td width="9%" rowspan="5">&nbsp;</td>
 												</tr>
 												<tr>
@@ -186,12 +199,11 @@ a:active {
 							<br/>							</p></td>
 												</tr>
 												<tr>
-													<td height="15" colspan="2" align="center"><a
-														href="/caseShoppingBook/userServlet?method=indexPage"><img src="ima/an001.png"
-															width="336" height="42" id="Image1"
-															onmouseover="MM_swapImage('Image1','','ima/an002.png',1)"
-															onmouseout="MM_swapImgRestore()" /></a></td>
-												</tr>
+													<td height="15" colspan="2" align="center">
+													<button type="submit" class="btn-login"></button>
+													
+													</td>
+											</tr>
 												<tr>
 													<td width="41%" height="15" align="center"><p>
 															<label> <input type="checkbox"
