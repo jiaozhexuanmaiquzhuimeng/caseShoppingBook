@@ -79,6 +79,7 @@ function MM_swapImage() { //v3.0
   var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
+
 </script>
 </head>
 
@@ -105,22 +106,22 @@ function MM_swapImage() { //v3.0
         </table>
           <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
             <tr>
-              <td><form id="form1" name="form1" method="post" action="">
+              <td><form id="form1" name="form1" method="post" action="userServlet?method=index2Page">
                 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
                   <tr>
                     <td width="8%" rowspan="5">&nbsp;</td>
                     <td height="25" align="center" valign="middle" class="a001"><label for="textfield"></label>
                       账户：&nbsp; &nbsp; &nbsp; <img src="ima/yh001.png" width="16" height="16" />
-                      <input type="text" name="textfield" id="username" /></td>
+                      <input type="text" name="username" id="username" /></td>
                     <td width="9%" rowspan="5">&nbsp;</td>
                   </tr>
                   <tr>
                     <td height="25" align="center" valign="middle" class="a001">密码：&nbsp; &nbsp; &nbsp; <img src="ima/mm001.png" width="16" height="16" />
-                      <input type="password" name="textfield2" id="textfield2" /></td>
+                      <input type="password" name="password" id="password" /></td>
                     </tr>
                   <tr>
                     <td align="center" class="a001"><p>再次输入密码：<img src="ima/mm001.png" alt="" width="16" height="16" />
-                        <input type="password" name="textfield3" id="textfield" />
+                        <input type="password" name="againpassword" id="textfield" />
                         <br />
                     </p></td>
                     </tr>
@@ -129,10 +130,10 @@ function MM_swapImage() { //v3.0
                       ：<a href="#">手机验证</a></td>
                     </tr>
                   <tr>
-                    <td height="15" align="center"><p><a href="index-dl.html">完成注册</a></p></td>
+                    <td height="15" align="center"><p><button type="submit">完成注册</button></p></td>
                     </tr>
                 </table>
-              </form></td>
+              </form></td><p style="color:red">${message}</p>
             </tr>
 </table>
           <table width="100%" border="0" cellspacing="0" cellpadding="0">

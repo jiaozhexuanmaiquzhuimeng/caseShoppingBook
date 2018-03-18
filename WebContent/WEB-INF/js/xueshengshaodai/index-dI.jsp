@@ -212,7 +212,7 @@ a:active {
 															</label> <br />
 														</p></td>
 													<td width="42%" height="15" align="center"><a href="#"
-														class="a001">忘记密码</a>丨<a href="#" class="a001">注册</a></td>
+														class="a001">忘记密码</a>丨<a href="userServlet?method=registerPage" class="a001">注册</a></td>
 												</tr>
 											</table>
 										</form></td>

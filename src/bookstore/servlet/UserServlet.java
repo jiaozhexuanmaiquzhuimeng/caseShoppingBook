@@ -75,6 +75,46 @@ public class UserServlet extends HttpServlet {
 		}
 	}
 	
+	//点击注册，进入注册页面
+	public void registerPage(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException{
+		request.getRequestDispatcher("/WEB-INF/js/xueshengshaodai/zhucebiao.jsp").forward(request, response);
+	}
+	
+	//点击注册链接到首页
+	public void index2Page(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException{
+		
+		String username = request.getParameter("username");
+		String password = request.getParameter("password");
+		String againpassword = request.getParameter("againpassword");
+		String message = "";
+		if(username.equals("")){
+			message = "用户名不能为空";
+		}else if(password.equals("")){
+			message = "密码不能为空";
+		}else if (!(password.equals(againpassword))) {
+			message = "两次密码不一致";
+		}else{
+			Person person = new Person();
+			
+			person.setUserName(username);
+			person.setPassWord(password);
+			Long info = userService.selectCountByUserName(username);
+			System.out.println(info);
+			if(info == 1){
+				message = "账户已存在，注册失败";
+			}else if (info == 0) {
+				userService.register(person);
+			}
+		}
+		request.setAttribute("message", message);
+		if ("".equals(message)) {
+			request.getRequestDispatcher("/WEB-INF/js/xueshengshaodai/index-dI.jsp").forward(request, response);
+			return;
+		}
+		request.getRequestDispatcher("/WEB-INF/js/xueshengshaodai/zhucebiao.jsp").forward(request, response);
+	}
 	
 
 }

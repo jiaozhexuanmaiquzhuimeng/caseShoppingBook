@@ -35,7 +35,7 @@ public class BaseDAO<T> implements DAO<T> {
 		ResultSet resultSet = null;
 		try {
 
-			connection = ConnectionContext.getInstance().get();
+			connection = JDBCUtils.getConnection();
 			preparedStatement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
 			if (args != null) {
 				for (int i = 0; i < args.length; i++) {
@@ -63,12 +63,14 @@ public class BaseDAO<T> implements DAO<T> {
 		Connection connection = null;
 		
 		try {
-			connection = ConnectionContext.getInstance().get();
+			connection = JDBCUtils.getConnection();
 			queryrunner.update(connection, sql, args);
 			
 			
 		} catch (Exception e) {
 			// TODO: handle exception
+		}finally{
+			JDBCUtils.releaseConnection(connection);
 		}
 
 	}
@@ -78,11 +80,13 @@ public class BaseDAO<T> implements DAO<T> {
 		Connection connection = null;
 
 		try {
-			connection = ConnectionContext.getInstance().get();
+			connection = JDBCUtils.getConnection();
 			return queryrunner.query(connection, sql, new BeanHandler<>(clazz), args);
 
 		} catch (Exception e) {
 			// TODO: handle exception
+		}finally{
+			JDBCUtils.releaseConnection(connection);
 		}
 		return null;
 	}
@@ -92,10 +96,12 @@ public class BaseDAO<T> implements DAO<T> {
 		Connection connection = null;
 
 		try {
-			connection = ConnectionContext.getInstance().get();
+			connection = JDBCUtils.getConnection();
 			return queryrunner.query(connection, sql, new BeanListHandler<>(clazz), args);
 		} catch (Exception e) {
 			// TODO: handle exception
+		}finally{
+			JDBCUtils.releaseConnection(connection);
 		}
 		return null;
 	}
@@ -114,7 +120,7 @@ public class BaseDAO<T> implements DAO<T> {
 		} catch (Exception e) {
 			// TODO: handle exception
 		}finally{
-			//JDBCUtils.releaseConnection(connection);
+			JDBCUtils.releaseConnection(connection);
 		}
 		return null;
 	}
@@ -124,10 +130,12 @@ public class BaseDAO<T> implements DAO<T> {
 		Connection connection = null;
 		try {
 			//connection = ConnectionContext.getInstance().get();
-			connection = ConnectionContext.getInstance().get();
+			connection = JDBCUtils.getConnection();
 			queryrunner.batch(connection, sql, params);
 		} catch (Exception e) {
 			// TODO: handle exception
+		}finally{
+			JDBCUtils.releaseConnection(connection);
 		}
 
 	}
