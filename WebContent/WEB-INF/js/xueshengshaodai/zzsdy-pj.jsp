@@ -103,10 +103,11 @@ function MM_swapImage() { //v3.0
 <body onload="MM_preloadImages('ima/捎带员/an003.png','ima/捎带员/an009.png')">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="65" height="50" bgcolor="#09F">&nbsp;</td>
-    <td width="84%" bgcolor="#09F"><span class="zi"><a href="../shouye.html">顺带捎</a>&nbsp; 丨&nbsp; 通行证</span></td>
-    <td width="5%" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="ima/捎带员/tx001.png" width="49" height="49" /></a></td>
-    <td width="5%" align="center" valign="middle" bgcolor="#09F"><a href="index-dl-zysdy.html"><span class="zi"> 注销</span></a></td>
+    <td width="68" height="50" bgcolor="#09F">&nbsp;</td>
+    <td width="49" bgcolor="#09F"><span class="zi" ><a href="../shouye.html" ><img src="../xueshengshaodai/ima/shundaishao.png" width="49" height="18" /></a></span></td>
+    <td width="870" bgcolor="#09F"><span class="zi"> 丨&nbsp; 通行证</span></td>
+    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="../xueshengshaodai/ima/捎带员/tx001.png" width="49" height="49" /></a></td>
+    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="index-dl-zysdy.html"><span class="zi"> 注销</span></a></td>
   </tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">

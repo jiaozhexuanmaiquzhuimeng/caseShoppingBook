@@ -103,10 +103,11 @@ function MM_swapImage() { //v3.0
 <body onload="MM_preloadImages('ima/捎带员/an003.png')">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="65" height="50" bgcolor="#09F">&nbsp;</td>
-    <td width="84%" bgcolor="#09F"><span class="zi"><a href="../shouye.html">顺带捎</a>&nbsp; 丨&nbsp; 通行证</span></td>
-    <td width="5%" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="ima/捎带员/tx001.png" width="49" height="49" /></a></td>
-    <td width="5%" align="center" valign="middle" bgcolor="#09F"><a href="index-dl-zysdy.html"><span class="zi"> 注销</span></a></td>
+    <td width="68" height="50" bgcolor="#09F">&nbsp;</td>
+    <td width="49" bgcolor="#09F"><span class="zi" ><a href="../shouye.html" ><img src="../xueshengshaodai/ima/shundaishao.png" width="49" height="18" /></a></span></td>
+    <td width="870" bgcolor="#09F"><span class="zi"> 丨&nbsp; 通行证</span></td>
+    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="../xueshengshaodai/ima/捎带员/tx001.png" width="49" height="49" /></a></td>
+    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="../xueshengshaodai/index-dl-zysdy.html"><span class="zi"> 注销</span></a></td>
   </tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -131,7 +132,7 @@ function MM_swapImage() { //v3.0
                   <td height="30" align="center"  class="a002">德州 | 学生</td>
                 </tr>
                 <tr>
-                  <td height="76" align="center" ><a href="index-zysdy.html"><img src="ima/捎带员/an002.png" name="Image1" width="160" height="36" id="Image1" onmouseover="MM_swapImage('Image1','','ima/捎带员/an003.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+                  <td height="76" align="center" ><p><a href="index-zysdy.html"><img src="ima/捎带员/an002.png" name="Image1" width="160" height="36" id="Image1" onmouseover="MM_swapImage('Image1','','ima/捎带员/an003.png',1)" onmouseout="MM_swapImgRestore()" /></a></p></td>
                 </tr>
               </table></td>
           </tr>
@@ -201,74 +202,6 @@ function MM_swapImage() { //v3.0
                           <td align="right" valign="middle">姓&nbsp;&nbsp;&nbsp;&nbsp;名</td>
                           <td>&nbsp;</td>
                           <td height="30"><input name="textfield2" type="text" id="textfield2" value="李四" /></td>
-                        </tr>
-                        <tr>
-                          <td align="right" valign="middle">出生年月</td>
-                          <td>&nbsp;</td>
-                          <td height="30"><select name="select" id="select">
-                            <option value="2000">2000</option>
-                            <option value="1999">1999</option>
-                            <option value="1998" selected="selected">1998</option>
-                            <option value="1997">1997</option>
-                            <option value="1996">1996</option>
-                            <option value="1995">1995</option>
-                            <option value="1994">1994</option>
-                            <option value="1993">1993</option>
-                            <option value="1992">1992</option>
-                            <option value="1991">1991</option>
-                            <option value="1990">1990</option>
-                            <option value="1989">1989</option>
-                          </select>
-                            年
-                            <select name="select2" id="select2">
-                              <option value="1">1</option>
-                              <option value="2" selected="selected">2</option>
-                              <option value="3">3</option>
-                              <option value="4">4</option>
-                              <option value="5">5</option>
-                              <option value="6">6</option>
-                              <option value="7">7</option>
-                              <option value="8">8</option>
-                              <option value="9">9</option>
-                              <option value="10">10</option>
-                              <option value="11">11</option>
-                              <option value="12">12</option>
-                            </select>
-                            月
-                            <select name="select3" id="select3">
-                              <option>1</option>
-                              <option>2</option>
-                              <option selected="selected">3</option>
-                              <option>4</option>
-                              <option>5</option>
-                              <option>6</option>
-                              <option>7</option>
-                              <option>8</option>
-                              <option>9</option>
-                              <option>10</option>
-                              <option>11</option>
-                              <option>12</option>
-                              <option>13</option>
-                              <option>14</option>
-                              <option>15</option>
-                              <option>16</option>
-                              <option>17</option>
-                              <option>18</option>
-                              <option>19</option>
-                              <option>20</option>
-                              <option>21</option>
-                              <option>22</option>
-                              <option>23</option>
-                              <option>24</option>
-                              <option>25</option>
-                              <option>26</option>
-                              <option>27</option>
-                              <option>28</option>
-                              <option>29</option>
-                              <option>30</option>
-                              <option>31</option>
-                            </select>
-                            日</td>
                         </tr>
                         <tr>
                           <td align="right" valign="middle">地&nbsp;&nbsp;&nbsp;&nbsp;址</td>

@@ -111,10 +111,11 @@ function MM_swapImage() { //v3.0
 <body onload="MM_preloadImages('ima/捎带员/an003.png','ima/捎带员/an013.png','ima/捎带员/an015.png')">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="65" height="50" bgcolor="#09F">&nbsp;</td>
-    <td width="84%" bgcolor="#09F"><span class="zi"><a href="../shouye.html">顺带捎</a>&nbsp; 丨&nbsp; 通行证</span></td>
-    <td width="5%" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="ima/捎带员/tx001.png" width="49" height="49" /></a></td>
-    <td width="5%" align="center" valign="middle" bgcolor="#09F"><a href="index-dl-zysdy.html"><span class="zi"> 注销</span></a></td>
+    <td width="68" height="50" bgcolor="#09F">&nbsp;</td>
+    <td width="49" bgcolor="#09F"><span class="zi" ><a href="../shouye.html" ><img src="../xueshengshaodai/ima/shundaishao.png" width="49" height="18" /></a></span></td>
+    <td width="870" bgcolor="#09F"><span class="zi"> 丨&nbsp; 通行证</span></td>
+    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="../xueshengshaodai/ima/捎带员/tx001.png" width="49" height="49" /></a></td>
+    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="../xueshengshaodai/index-dl-zysdy.html"><span class="zi"> 注销</span></a></td>
   </tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -139,7 +140,7 @@ function MM_swapImage() { //v3.0
                   <td height="30" align="center"  class="a002">德州 | 学生</td>
                 </tr>
                 <tr>
-                  <td height="76" align="center" ><a href="index-zysdy.html"><img src="ima/捎带员/an002.png" name="Image1" width="160" height="36" id="Image1" onmouseover="MM_swapImage('Image1','','ima/捎带员/an003.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+                  <td height="76" align="center" ><p><a href="index-zysdy.html"><img src="ima/捎带员/an002.png" name="Image1" width="160" height="36" id="Image1" onmouseover="MM_swapImage('Image1','','ima/捎带员/an003.png',1)" onmouseout="MM_swapImgRestore()" /></a></p></td>
                 </tr>
               </table></td>
           </tr>

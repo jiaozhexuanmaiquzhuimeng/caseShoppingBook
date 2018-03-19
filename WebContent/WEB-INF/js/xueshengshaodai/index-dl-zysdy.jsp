@@ -85,7 +85,9 @@ function MM_swapImage() { //v3.0
 <body onload="MM_preloadImages('ima/an002.png','ima/tengxun.png','ima/weixin.png','ima/weibo.png')">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td height="50" bgcolor="#09F"><span class="q">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="zi"><a href="../shouye.html">顺带捎</a>&nbsp; 丨&nbsp; 通行证</span></span></td>
+    <td width="160" height="50" bgcolor="#09F"><span class="q">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+    <td width="49" bgcolor="#09F"><span class="q"><a href="../shouye.html" ><img src="../xueshengshaodai/ima/shundaishao.png" width="49" height="18" /></a></span></td>
+    <td width="889" bgcolor="#09F"><span class="zi">&nbsp; 丨&nbsp; 通行证</span></td>
   </tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -111,7 +113,7 @@ function MM_swapImage() { //v3.0
                     <td width="8%" rowspan="5">&nbsp;</td>
                     <td height="25" colspan="2" align="center" valign="middle" class="a001"><label for="textfield"></label>
                       <img src="ima/yh001.png" width="16" height="16" />
-                      <input type="text" name="textfield" id="textfield" /></td>
+                      <input type="text" name="textfield" id="username" /></td>
                     <td width="9%" rowspan="5">&nbsp;</td>
                   </tr>
                   <tr>
@@ -121,17 +123,17 @@ function MM_swapImage() { //v3.0
                   <tr>
                     <td colspan="2" align="center" class="a001"><p>
                       <label>
-                        <input type="radio" name="RadioGroup1" value="free" id="RadioGroup1_0" />
-                        <a href="index-zysdy.html"><span class="a001">自由顺带员</span></a></label>
-                      
-                      <label> 
-                        <input type="radio" name="RadioGroup1" value="full-time " id="RadioGroup1_1" />
-                        <span class="a001"><a href="index-zzsdy.html">专职顺带员</a></span></label>
+                        <input type="radio" name="radio" id="sellerid" value="sellerid" />
+                        <a href="index-zysdy.html">自由捎带员</a></label>
+                   
+                      <label>&nbsp;&nbsp;
+                        <input type="radio" name="radio" id="sellerid2" value="sellerid" />
+                        <a href="index-zzsdy.html">专职捎带员</a></label>
                       <br />
                     </p></td>
                     </tr>
                   <tr>
-                    <td height="15" colspan="2" align="center"><a href="index-zysdy.html"><img src="ima/an001.png" name="Image1" width="336" height="42" id="Image1" onmouseover="MM_swapImage('Image1','','ima/an002.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+                    <td height="15" colspan="2" align="center"><a href="index-zysdy.html"><img src="ima/an001.png" width="336" height="42" id="Image1" onmouseover="MM_swapImage('Image1','','ima/an002.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
                     </tr>
                   <tr>
                     <td width="41%" height="15" align="center"><p>
@@ -140,7 +142,7 @@ function MM_swapImage() { //v3.0
                         下次自动登录</label>
                       <br />
                     </p></td>
-                    <td width="42%" height="15" align="center"><a href="#" class="a001">忘记密码</a>丨<a href="#" class="a001">注册</a></td>
+                    <td width="42%" height="15" align="center"><a href="#" class="a001">忘记密码</a>丨<a href="zhucebiao2.html" class="a001">注册</a></td>
                   </tr>
                 </table>
               </form></td>

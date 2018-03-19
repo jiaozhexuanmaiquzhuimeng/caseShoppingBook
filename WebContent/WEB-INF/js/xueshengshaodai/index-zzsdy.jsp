@@ -108,10 +108,11 @@ function MM_swapImage() { //v3.0
 <body onload="MM_preloadImages('ima/捎带员/an003.png','ima/捎带员/an005.png','ima/捎带员/an017+.png','ima/捎带员/an017.png')">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="65" height="50" bgcolor="#09F">&nbsp;</td>
-    <td width="84%" bgcolor="#09F"><span class="zi"><a href="../shouye.html">顺带捎</a>&nbsp; 丨&nbsp; 通行证</span></td>
-    <td width="5%" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="ima/捎带员/tx001.png" width="49" height="49" /></a></td>
-    <td width="5%" align="center" valign="middle" bgcolor="#09F"><a href="index-dl-zysdy.html"><span class="zi"> 注销</span></a></td>
+    <td width="68" height="50" bgcolor="#09F">&nbsp;</td>
+    <td width="49" bgcolor="#09F"><span class="zi" ><a href="../shouye.html" ><img src="../xueshengshaodai/ima/shundaishao.png" width="49" height="18" /></a></span></td>
+    <td width="870" bgcolor="#09F"><span class="zi"> 丨&nbsp; 通行证</span></td>
+    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="../xueshengshaodai/ima/捎带员/tx001.png" width="49" height="49" /></a></td>
+    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="index-dl-zysdy.html"><span class="zi"> 注销</span></a></td>
   </tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -225,7 +226,7 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td rowspan="2" align="right" valign="middle">&nbsp;</td>
+                        <td rowspan="2" align="right" valign="middle"><img src="ima/捎带员/an004.png" name="Image31" width="70" height="36" id="Image31" onmouseover="MM_swapImage('Image31','','ima/捎带员/an005.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dengdai">已等待2分钟</span></td>
@@ -271,7 +272,7 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td rowspan="2" align="right" valign="middle"><img src="ima/捎带员/an016.png" name="Image22" width="70" height="36" id="Image22" onmouseover="MM_swapImage('Image22','','ima/捎带员/an017.png',1)" onmouseout="MM_swapImgRestore()" /><img src="ima/捎带员/an004.png" name="Image31" width="70" height="36" id="Image31" onmouseover="MM_swapImage('Image31','','ima/捎带员/an005.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td rowspan="2" align="right" valign="middle"><img src="ima/捎带员/an016.png" name="Image22" width="70" height="36" id="Image22" onmouseover="MM_swapImage('Image22','','ima/捎带员/an017.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dengdai">已等待1分钟</span></td>
