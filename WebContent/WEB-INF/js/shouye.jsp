@@ -115,7 +115,7 @@ a:active {
 			href="shouhou.html">我的客服</a> &nbsp; &nbsp;&nbsp; &nbsp; |&nbsp;
 			&nbsp; &nbsp; &nbsp; <a href="jiameng.html">加盟合作</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
 			href="学生捎带/index-dl.html">登录</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
-			href="学生捎带/index-dl.html">注册</a>
+			 href="xueshengshaodai/zhucebiao.html">注册</a>
 		</span></span><br /> <br />
 		<div class="q1">
 			<br />
