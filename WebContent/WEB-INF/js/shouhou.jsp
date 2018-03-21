@@ -94,7 +94,7 @@ a:active {
 <span class="zi">顺带捎&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="shouye.html">首页</a>&nbsp;&nbsp; &nbsp; |&nbsp; &nbsp;&nbsp;
    <a href="dingdan.html"> 我的订单</a> &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp;<a href="xueshengshaodai/index-dl-zysdy.html">学生捎带</a>&nbsp; &nbsp;&nbsp; |&nbsp; &nbsp; &nbsp; &nbsp;   &nbsp;
    <a href="shouhou.html">我的客服</a> &nbsp; &nbsp;&nbsp; &nbsp; |&nbsp; &nbsp; &nbsp;   &nbsp;
-<a href="jiameng.html">加盟合作</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="学生捎带/index-dl.html">登录</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="学生捎带/index-dl.html">注册</a></span><br />
+<a href="jiameng.html">加盟合作</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="学生捎带/index-dl.html">登录</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="xueshengshaodai/zhucebiao.html">注册</a></span><br />
    <br />
  <div class="q1">  <br />
    <br />
