@@ -8,6 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import bookstore.domain.Person;
 import bookstore.service.UserService;
@@ -58,18 +59,25 @@ public class UserServlet extends HttpServlet {
 	public void indexPage(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException{
 		
+		HttpSession session = request.getSession();
 		
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
-		System.out.println(username);
-		System.out.println(password);
+		String ident = request.getParameter("ident");
+		session.setAttribute("username", username);
+		
 		Person person = new Person();
 		person.setUserName(username);
 		person.setPassWord(password);
 		Long i = userService.login(person);
 		
 		if (i==1) {
-			request.getRequestDispatcher("/WEB-INF/js/shouye.jsp").forward(request, response);
+			if ("buyer".equals(ident)) {
+				request.getRequestDispatcher("/WEB-INF/js/shouye.jsp").forward(request, response);
+				return;
+			}else if ("seller".equals(ident)) {
+				request.getRequestDispatcher("/WEB-INF/js/maijia/index-maijia-first.jsp").forward(request, response);
+			}
 		}else{
 			response.sendRedirect(request.getContextPath()+"/index.jsp");
 		}
@@ -88,6 +96,8 @@ public class UserServlet extends HttpServlet {
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		String againpassword = request.getParameter("againpassword");
+		String string = request.getParameter("ident");
+		System.out.println(string);
 		String message = "";
 		if(username.equals("")){
 			message = "用户名不能为空";
@@ -116,5 +126,10 @@ public class UserServlet extends HttpServlet {
 		request.getRequestDispatcher("/WEB-INF/js/xueshengshaodai/zhucebiao.jsp").forward(request, response);
 	}
 	
+	//完善信息
+	public void sellerInfoPage(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException{
+		request.getRequestDispatcher("/WEB-INF/js/maijia/index-maijia-first002.jsp").forward(request, response);
+	}
 
 }

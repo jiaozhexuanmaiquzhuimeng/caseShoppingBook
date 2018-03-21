@@ -82,7 +82,25 @@ a:active {
 	background-image: url("ima/an002.png");
 }
 </style>
+<script type="text/javascript" src="js/jquery-1.10.1.js"></script>
 <script type="text/javascript">
+		
+	/* var ident = $("input[name='ident']:checked").val();
+	function click() {
+		alert("已加载");
+		
+		if(ident == 'seller'){
+			alert("点击了seller");
+ 			form1.action = "userServlet?method=indexPage";
+			form1.submit(); 
+		}else if(ident == 'buyer'){
+		 	form1.action = "userServlet?method=indexPage";
+			form1.submit(); 
+		}
+		
+	} */
+	
+	
 	function MM_preloadImages() { //v3.0
 		var d = document;
 		if (d.images) {
@@ -190,18 +208,17 @@ a:active {
 													<td colspan="2" align="center" class="a001"><p>
 															
 															<label>
-                        <input type="radio" name="radio" id="sellerid" value="sellerid" />
+                        <input type="radio" name="ident" id="sellerid" value="seller" />
                         卖家</label>
                    
                       <label>&nbsp;&nbsp;
-                        <input type="radio" name="radio" id="sellerid2" value="sellerid" />
+                        <input type="radio" name="ident" id="sellerid2" value="buyer" />
                         买家</label>
 							<br/>							</p></td>
 												</tr>
 												<tr>
 													<td height="15" colspan="2" align="center">
-													<button type="submit" class="btn-login"></button>
-													
+													<input type="submit" class="btn-login">
 													</td>
 											</tr>
 												<tr>
