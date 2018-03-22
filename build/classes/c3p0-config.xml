@@ -5,7 +5,7 @@
 		<property name="user">zgz</property>
 		<property name="password">123456</property>
 		<property name="driverClass">com.mysql.jdbc.Driver</property>
-		<property name="jdbcUrl">jdbc:mysql://192.168.1.104:3306/sds</property>
+		<property name="jdbcUrl">jdbc:mysql://211.64.40.215:3306/sds</property>
 
 
 		<property name="acquireIncrement">5</property>

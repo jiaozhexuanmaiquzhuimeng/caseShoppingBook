@@ -10,7 +10,7 @@ body {
 	margin-left: 0px;
 	margin-top: 0px;
 	margin-right: 0px;
-	background-image: url(../xueshengshaodai/ima/%E6%8D%8E%E5%B8%A6%E5%91%98/bjs001.png);
+	background-image: url(../xueshengshaodai/ima/shaodaiyuan/bjs001.png);
 	margin-bottom: 100px;
 }
 .q {height:1400px;
@@ -111,13 +111,13 @@ function MM_popupMsg(msg) { //v1.0
 </script>
 </head>
 
-<body onload="MM_preloadImages('ima/捎带员/an021.png','ima/捎带员/an023.png')">
+<body onload="MM_preloadImages('ima/shaodaiyuan/an021.png','ima/shaodaiyuan/an023.png')">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="68" height="50" bgcolor="#09F">&nbsp;</td>
     <td width="49" bgcolor="#09F"><span class="zi" ><a href="../shouye.html" ><img src="../xueshengshaodai/ima/shundaishao.png" width="49" height="18" /></a></span></td>
     <td width="870" bgcolor="#09F"><span class="zi"> 丨&nbsp; 通行证</span></td>
-    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="../xueshengshaodai/ima/捎带员/tx001.png" width="49" height="49" /></a></td>
+    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="../xueshengshaodai/ima/shaodaiyuan/tx001.png" width="49" height="49" /></a></td>
     <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="../xueshengshaodai/index-dl.html"><span class="zi"> 注销</span></a></td>
   </tr>
 </table>
@@ -132,9 +132,9 @@ function MM_popupMsg(msg) { //v1.0
       <tr>
         <td width="210" align="center" valign="top"><table width="210" border="0" cellspacing="0" cellpadding="0">
           <tr>
-            <td width="210" height="256" align="center" background="../xueshengshaodai/ima/捎带员/资料白色001.png"><table width="210" border="0" cellspacing="0" cellpadding="0">
+            <td width="210" height="256" align="center" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise001.png"><table width="210" border="0" cellspacing="0" cellpadding="0">
                 <tr>
-                  <td width="210" height="120" align="center" >&nbsp;<a href="#"><img src="../xueshengshaodai/ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                  <td width="210" height="120" align="center" >&nbsp;<a href="#"><img src="../xueshengshaodai/ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                 </tr>
                 <tr>
                   <td height="30" align="center"  class="a001"><span class="youyuan">三餐2号窗口小土豆炖菜馆</span></td>
@@ -143,7 +143,7 @@ function MM_popupMsg(msg) { //v1.0
                   <td height="30" align="center"  class="a002">德州 | 卖家</td>
                 </tr>
                 <tr>
-                  <td height="76" align="center" ><p><a href="index-maijia002.html"  target="_self"><img src="../xueshengshaodai/ima/捎带员/an000.png" name="Image1" width="160" height="36" id="Image1" onclick="MM_popupMsg('您已下班')" /></a><a href="index-maijia.html"></a></p></td>
+                  <td height="76" align="center" ><p><a href="index-maijia002.html"  target="_self"><img src="../xueshengshaodai/ima/shaodaiyuan/an000.png" name="Image1" width="160" height="36" id="Image1" onclick="MM_popupMsg('您已下班')" /></a><a href="index-maijia.html"></a></p></td>
                 </tr>
               </table></td>
           </tr>
@@ -155,7 +155,7 @@ function MM_popupMsg(msg) { //v1.0
         </table>
           <table width="210" border="0" cellspacing="0" cellpadding="0">
             <tr>
-              <td width="210" height="510" align="center" valign="top" background="../xueshengshaodai/ima/捎带员/资料白色002.png"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="a003">
+              <td width="210" height="510" align="center" valign="top" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise002.png"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="a003">
                 <tr>
                   <td width="14%" rowspan="6">&nbsp;</td>
                   <td height="45" valign="middle" class="a003"><a href="index-maijia.html">我要接单</a></td>
@@ -181,10 +181,10 @@ function MM_popupMsg(msg) { //v1.0
         <td width="15">&nbsp;</td>
         <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
-            <td width="21" height="67" background="../xueshengshaodai/ima/捎带员/资料白色003.png">&nbsp;</td>
-            <td width="253" background="../xueshengshaodai/ima/捎带员/资料白色003.png"><span class="a003">欢迎&nbsp;</span><span class="youyuan">三餐2号窗口小土豆炖菜馆</span></td>
-            <td width="107" background="../xueshengshaodai/ima/捎带员/资料白色003.png"><span class="a003">身份</span>：<span class="youyuan">卖家</span></td>
-            <td width="515" background="../xueshengshaodai/ima/捎带员/资料白色003.png" class="a003">当前状态：<span class="shangban001">上班中</span></td>
+            <td width="21" height="67" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise003.png">&nbsp;</td>
+            <td width="253" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise003.png"><span class="a003">欢迎&nbsp;</span><span class="youyuan">三餐2号窗口小土豆炖菜馆</span></td>
+            <td width="107" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise003.png"><span class="a003">身份</span>：<span class="youyuan">卖家</span></td>
+            <td width="515" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise003.png" class="a003">当前状态：<span class="shangban001">上班中</span></td>
           </tr>
         </table>
           <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -207,9 +207,9 @@ function MM_popupMsg(msg) { //v1.0
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                   <tr>
                     <td width="10">&nbsp;</td>
-                    <td width="285" height="63" background="ima/捎带员/资料白色005.png"><table width="100%"  height="63" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" height="63" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="63" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="8%" height="13" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="19" height="19" /></a></td>
+                        <td width="8%" height="13" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="19" height="19" /></a></td>
                         <td width="59%" valign="middle">&nbsp;&nbsp;<span class="a005">李*(178****6768)</span></td>
                         <td colspan="2" align="right" valign="middle" class="a004"><span class="juli">0.75km&nbsp;</span></td>
                       </tr>
@@ -221,14 +221,14 @@ function MM_popupMsg(msg) { //v1.0
                       <tr>
                         <td width="8%" height="21" align="center" valign="middle">&nbsp;</td>
                         <td valign="middle">&nbsp;&nbsp;&nbsp;&nbsp;<span class="dengdai">已等待1分钟</span></td>
-                        <td width="16%" align="center" valign="middle"><img src="ima/捎带员/an020.png" name="Image24" width="35" height="21" id="Image24" onmouseover="MM_swapImage('Image24','','ima/捎带员/an021.png',1)" onmouseout="MM_swapImgRestore()" /></td>
-                        <td width="17%" align="center" valign="middle"><img src="ima/捎带员/an022.png" name="Image21" width="35" height="21" id="Image21" onmouseover="MM_swapImage('Image21','','ima/捎带员/an023.png',1)" onmouseout="MM_swapImgRestore()" /></td>
+                        <td width="16%" align="center" valign="middle"><img src="ima/shaodaiyuan/an020.png" name="Image24" width="35" height="21" id="Image24" onmouseover="MM_swapImage('Image24','','ima/shaodaiyuan/an021.png',1)" onmouseout="MM_swapImgRestore()" /></td>
+                        <td width="17%" align="center" valign="middle"><img src="ima/shaodaiyuan/an022.png" name="Image21" width="35" height="21" id="Image21" onmouseover="MM_swapImage('Image21','','ima/shaodaiyuan/an023.png',1)" onmouseout="MM_swapImgRestore()" /></td>
                       </tr>
                       </table></td>
                     <td width="10" >&nbsp;</td>
-                    <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="63" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="63" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="8%" height="13" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="19" height="19" /></a></td>
+                        <td width="8%" height="13" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="19" height="19" /></a></td>
                         <td width="59%" valign="middle">&nbsp;&nbsp;<span class="a005">王*(178****5634)</span></td>
                         <td colspan="2" align="right" valign="middle" class="a004"><span class="juli">0.65km&nbsp;</span></td>
                       </tr>
@@ -240,14 +240,14 @@ function MM_popupMsg(msg) { //v1.0
                       <tr>
                         <td width="8%" height="21" align="center" valign="middle">&nbsp;</td>
                         <td valign="middle">&nbsp;&nbsp;&nbsp;&nbsp;<span class="dengdai">已等待3分钟</span></td>
-                        <td width="16%" align="center" valign="middle"><img src="ima/捎带员/an020.png" name="Image22" width="35" height="21" id="Image22" onmouseover="MM_swapImage('Image22','','ima/捎带员/an021.png',1)" onmouseout="MM_swapImgRestore()" /></td>
-                        <td width="17%" align="center" valign="middle"><img src="ima/捎带员/an022.png" name="Image31" width="35" height="21" id="Image31" onmouseover="MM_swapImage('Image31','','ima/捎带员/an023.png',1)" onmouseout="MM_swapImgRestore()" /></td>
+                        <td width="16%" align="center" valign="middle"><img src="ima/shaodaiyuan/an020.png" name="Image22" width="35" height="21" id="Image22" onmouseover="MM_swapImage('Image22','','ima/shaodaiyuan/an021.png',1)" onmouseout="MM_swapImgRestore()" /></td>
+                        <td width="17%" align="center" valign="middle"><img src="ima/shaodaiyuan/an022.png" name="Image31" width="35" height="21" id="Image31" onmouseover="MM_swapImage('Image31','','ima/shaodaiyuan/an023.png',1)" onmouseout="MM_swapImgRestore()" /></td>
                       </tr>
                     </table></td>
                     <td width="10">&nbsp;</td>
-                    <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="63" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="63" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="8%" height="13" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="19" height="19" /></a></td>
+                        <td width="8%" height="13" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="19" height="19" /></a></td>
                         <td width="59%" valign="middle">&nbsp;&nbsp;<span class="a005">孙*(178****6784)</span></td>
                         <td colspan="2" align="right" valign="middle" class="a004"><span class="juli">0.75km&nbsp;</span></td>
                       </tr>
@@ -259,8 +259,8 @@ function MM_popupMsg(msg) { //v1.0
                       <tr>
                         <td width="8%" height="21" align="center" valign="middle">&nbsp;</td>
                         <td valign="middle">&nbsp;&nbsp;&nbsp;&nbsp;<span class="dengdai">已等待2分钟</span></td>
-                        <td width="16%" align="center" valign="middle"><img src="ima/捎带员/an020.png" name="Image23" width="35" height="21" id="Image23" onmouseover="MM_swapImage('Image23','','ima/捎带员/an021.png',1)" onmouseout="MM_swapImgRestore()" /></td>
-                        <td width="17%" align="center" valign="middle"><img src="ima/捎带员/an022.png" name="Image32" width="35" height="21" id="Image32" onmouseover="MM_swapImage('Image32','','ima/捎带员/an023.png',1)" onmouseout="MM_swapImgRestore()" /></td>
+                        <td width="16%" align="center" valign="middle"><img src="ima/shaodaiyuan/an020.png" name="Image23" width="35" height="21" id="Image23" onmouseover="MM_swapImage('Image23','','ima/shaodaiyuan/an021.png',1)" onmouseout="MM_swapImgRestore()" /></td>
+                        <td width="17%" align="center" valign="middle"><img src="ima/shaodaiyuan/an022.png" name="Image32" width="35" height="21" id="Image32" onmouseover="MM_swapImage('Image32','','ima/shaodaiyuan/an023.png',1)" onmouseout="MM_swapImgRestore()" /></td>
                       </tr>
                     </table></td>
                     <td width="10">&nbsp;</td>
@@ -274,9 +274,9 @@ function MM_popupMsg(msg) { //v1.0
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                   <tr>
                     <td width="10">&nbsp;</td>
-                    <td width="285" height="63" background="ima/捎带员/资料白色005.png"><table width="100%"  height="63" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" height="63" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="63" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="8%" height="13" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="19" height="19" /></a></td>
+                        <td width="8%" height="13" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="19" height="19" /></a></td>
                         <td width="59%" valign="middle">&nbsp;&nbsp;<span class="a005">张*(178****3901)</span></td>
                         <td colspan="2" align="right" valign="middle" class="a004"><span class="juli">0.75km&nbsp;</span></td>
                       </tr>
@@ -288,14 +288,14 @@ function MM_popupMsg(msg) { //v1.0
                       <tr>
                         <td width="8%" height="21" align="center" valign="middle">&nbsp;</td>
                         <td valign="middle">&nbsp;&nbsp;&nbsp;&nbsp;<span class="dengdai">已等待1分钟</span></td>
-                        <td width="16%" align="center" valign="middle"><img src="ima/捎带员/an020.png" name="Image25" width="35" height="21" id="Image25" onmouseover="MM_swapImage('Image25','','ima/捎带员/an021.png',1)" onmouseout="MM_swapImgRestore()" /></td>
-                        <td width="17%" align="center" valign="middle"><img src="ima/捎带员/an022.png" name="Image33" width="35" height="21" id="Image33" onmouseover="MM_swapImage('Image33','','ima/捎带员/an023.png',1)" onmouseout="MM_swapImgRestore()" /></td>
+                        <td width="16%" align="center" valign="middle"><img src="ima/shaodaiyuan/an020.png" name="Image25" width="35" height="21" id="Image25" onmouseover="MM_swapImage('Image25','','ima/shaodaiyuan/an021.png',1)" onmouseout="MM_swapImgRestore()" /></td>
+                        <td width="17%" align="center" valign="middle"><img src="ima/shaodaiyuan/an022.png" name="Image33" width="35" height="21" id="Image33" onmouseover="MM_swapImage('Image33','','ima/shaodaiyuan/an023.png',1)" onmouseout="MM_swapImgRestore()" /></td>
                       </tr>
                     </table></td>
                     <td width="10" >&nbsp;</td>
-                    <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="63" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="63" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="8%" height="13" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="19" height="19" /></a></td>
+                        <td width="8%" height="13" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="19" height="19" /></a></td>
                         <td width="59%" valign="middle">&nbsp;&nbsp;<span class="a005">刘*(178****5454)</span></td>
                         <td colspan="2" align="right" valign="middle" class="a004"><span class="juli">0.65km&nbsp;</span></td>
                       </tr>
@@ -307,14 +307,14 @@ function MM_popupMsg(msg) { //v1.0
                       <tr>
                         <td width="8%" height="21" align="center" valign="middle">&nbsp;</td>
                         <td valign="middle">&nbsp;&nbsp;&nbsp;&nbsp;<span class="dengdai">已等待3分钟</span></td>
-                        <td width="16%" align="center" valign="middle"><img src="ima/捎带员/an020.png" name="Image41" width="35" height="21" id="Image41" onmouseover="MM_swapImage('Image41','','ima/捎带员/an021.png',1)" onmouseout="MM_swapImgRestore()" /></td>
-                        <td width="17%" align="center" valign="middle"><img src="ima/捎带员/an022.png" name="Image51" width="35" height="21" id="Image51" onmouseover="MM_swapImage('Image51','','ima/捎带员/an023.png',1)" onmouseout="MM_swapImgRestore()" /></td>
+                        <td width="16%" align="center" valign="middle"><img src="ima/shaodaiyuan/an020.png" name="Image41" width="35" height="21" id="Image41" onmouseover="MM_swapImage('Image41','','ima/shaodaiyuan/an021.png',1)" onmouseout="MM_swapImgRestore()" /></td>
+                        <td width="17%" align="center" valign="middle"><img src="ima/shaodaiyuan/an022.png" name="Image51" width="35" height="21" id="Image51" onmouseover="MM_swapImage('Image51','','ima/shaodaiyuan/an023.png',1)" onmouseout="MM_swapImgRestore()" /></td>
                       </tr>
                     </table></td>
                     <td width="10">&nbsp;</td>
-                    <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="63" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="63" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="8%" height="13" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="19" height="19" /></a></td>
+                        <td width="8%" height="13" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="19" height="19" /></a></td>
                         <td width="59%" valign="middle">&nbsp;&nbsp;<span class="a005">张*(178****6888)</span></td>
                         <td colspan="2" align="right" valign="middle" class="a004"><span class="juli">0.75km&nbsp;</span></td>
                       </tr>
@@ -326,8 +326,8 @@ function MM_popupMsg(msg) { //v1.0
                       <tr>
                         <td width="8%" height="21" align="center" valign="middle">&nbsp;</td>
                         <td valign="middle">&nbsp;&nbsp;&nbsp;&nbsp;<span class="dengdai">已等待2分钟</span></td>
-                        <td width="16%" align="center" valign="middle"><img src="ima/捎带员/an020.png" name="Image61" width="35" height="21" id="Image61" onmouseover="MM_swapImage('Image61','','ima/捎带员/an021.png',1)" onmouseout="MM_swapImgRestore()" /></td>
-                        <td width="17%" align="center" valign="middle"><img src="ima/捎带员/an022.png" name="Image71" width="35" height="21" id="Image71" onmouseover="MM_swapImage('Image71','','ima/捎带员/an023.png',1)" onmouseout="MM_swapImgRestore()" /></td>
+                        <td width="16%" align="center" valign="middle"><img src="ima/shaodaiyuan/an020.png" name="Image61" width="35" height="21" id="Image61" onmouseover="MM_swapImage('Image61','','ima/shaodaiyuan/an021.png',1)" onmouseout="MM_swapImgRestore()" /></td>
+                        <td width="17%" align="center" valign="middle"><img src="ima/shaodaiyuan/an022.png" name="Image71" width="35" height="21" id="Image71" onmouseover="MM_swapImage('Image71','','ima/shaodaiyuan/an023.png',1)" onmouseout="MM_swapImgRestore()" /></td>
                       </tr>
                     </table></td>
                     <td width="10">&nbsp;</td>
@@ -341,9 +341,9 @@ function MM_popupMsg(msg) { //v1.0
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                   <tr>
                     <td width="10">&nbsp;</td>
-                    <td width="285" height="63" background="ima/捎带员/资料白色005.png"><table width="100%"  height="63" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" height="63" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="63" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="8%" height="13" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="19" height="19" /></a></td>
+                        <td width="8%" height="13" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="19" height="19" /></a></td>
                         <td width="59%" valign="middle">&nbsp;&nbsp;<span class="a005">刘*(178****7767)</span></td>
                         <td colspan="2" align="right" valign="middle" class="a004"><span class="juli">0.75km&nbsp;</span></td>
                       </tr>
@@ -355,8 +355,8 @@ function MM_popupMsg(msg) { //v1.0
                       <tr>
                         <td width="8%" height="21" align="center" valign="middle">&nbsp;</td>
                         <td valign="middle">&nbsp;&nbsp;&nbsp;&nbsp;<span class="dengdai">已等待1分钟</span></td>
-                        <td width="16%" align="center" valign="middle"><img src="ima/捎带员/an020.png" name="Image26" width="35" height="21" id="Image26" onmouseover="MM_swapImage('Image26','','ima/捎带员/an021.png',1)" onmouseout="MM_swapImgRestore()" /></td>
-                        <td width="17%" align="center" valign="middle"><img src="ima/捎带员/an022.png" name="Image34" width="35" height="21" id="Image34" onmouseover="MM_swapImage('Image34','','ima/捎带员/an023.png',1)" onmouseout="MM_swapImgRestore()" /></td>
+                        <td width="16%" align="center" valign="middle"><img src="ima/shaodaiyuan/an020.png" name="Image26" width="35" height="21" id="Image26" onmouseover="MM_swapImage('Image26','','ima/shaodaiyuan/an021.png',1)" onmouseout="MM_swapImgRestore()" /></td>
+                        <td width="17%" align="center" valign="middle"><img src="ima/shaodaiyuan/an022.png" name="Image34" width="35" height="21" id="Image34" onmouseover="MM_swapImage('Image34','','ima/shaodaiyuan/an023.png',1)" onmouseout="MM_swapImgRestore()" /></td>
                       </tr>
                     </table></td>
                     <td width="10" >&nbsp;</td>

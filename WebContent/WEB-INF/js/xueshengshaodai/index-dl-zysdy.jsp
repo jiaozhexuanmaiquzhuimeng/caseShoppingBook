@@ -99,7 +99,7 @@ function MM_swapImage() { //v3.0
   <tr>
     <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
       <tr>
-        <td height="550" align="center" valign="middle" background="ima/白色003.png"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <td height="550" align="center" valign="middle" background="ima/baise003.png"><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
               <td align="center" class="a001"><p><span class="b001">学生捎带</span></p>
                 <p>加入学生捎带，不会再为月末没钱而发愁。</p></td>
@@ -124,16 +124,15 @@ function MM_swapImage() { //v3.0
                     <td colspan="2" align="center" class="a001"><p>
                       <label>
                         <input type="radio" name="radio" id="sellerid" value="sellerid" />
-                        <a href="index-zysdy.html">自由捎带员</a></label>
+                        自由捎带员</label>
                    
                       <label>&nbsp;&nbsp;
                         <input type="radio" name="radio" id="sellerid2" value="sellerid" />
-                        <a href="index-zzsdy.html">专职捎带员</a></label>
-                      <br />
+                        专职捎带员</label><br />
                     </p></td>
                     </tr>
                   <tr>
-                    <td height="15" colspan="2" align="center"><a href="index-zysdy.html"><img src="ima/an001.png" width="336" height="42" id="Image1" onmouseover="MM_swapImage('Image1','','ima/an002.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+                    <td height="15" colspan="2" align="center"><a href="xieyi001.html"><img src="ima/an001.png" name="Image1" width="336" height="42" id="Image1" onmouseover="MM_swapImage('Image1','','ima/an002.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
                     </tr>
                   <tr>
                     <td width="41%" height="15" align="center"><p>

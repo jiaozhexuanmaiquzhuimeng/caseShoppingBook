@@ -4,9 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
+<title>顺带捎</title>
 		<style type="text/css">
 			* {
 				margin: 0;
@@ -81,7 +79,7 @@
 				height: 50px;
 				width: 1024px;
 				background-color:#09F;
-				margin: auto;
+				margin: 20px auto;
 			}
 			
 			.q-list {
@@ -245,4 +243,5 @@ a:active {
 		</div>
 		</div>
 	</body>
+
 </html>

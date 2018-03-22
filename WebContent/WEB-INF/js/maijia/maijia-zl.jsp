@@ -10,7 +10,7 @@ body {
 	margin-left: 0px;
 	margin-top: 0px;
 	margin-right: 0px;
-	background-image: url(../xueshengshaodai/ima/%E6%8D%8E%E5%B8%A6%E5%91%98/bjs001.png);
+	background-image: url(../xueshengshaodai/ima/shaodaiyuan/bjs001.png);
 	margin-bottom: 100px;
 }
 .q {height:1400px;
@@ -102,7 +102,7 @@ function MM_popupMsg(msg) { //v1.0
     <td width="68" height="50" bgcolor="#09F">&nbsp;</td>
     <td width="49" bgcolor="#09F"><span class="zi" ><a href="../shouye.html" ><img src="../xueshengshaodai/ima/shundaishao.png" width="49" height="18" /></a></span></td>
     <td width="870" bgcolor="#09F"><span class="zi"> 丨&nbsp; 通行证</span></td>
-    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="../xueshengshaodai/ima/捎带员/tx001.png" width="49" height="49" /></a></td>
+    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="../xueshengshaodai/ima/shaodaiyuan/tx001.png" width="49" height="49" /></a></td>
     <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="../xueshengshaodai/index-dl.html"><span class="zi"> 注销</span></a></td>
   </tr>
 </table>
@@ -117,9 +117,9 @@ function MM_popupMsg(msg) { //v1.0
       <tr>
         <td width="210" align="center" valign="top"><table width="210" border="0" cellspacing="0" cellpadding="0">
           <tr>
-            <td width="210" height="256" align="center" background="../xueshengshaodai/ima/捎带员/资料白色001.png"><table width="210" border="0" cellspacing="0" cellpadding="0">
+            <td width="210" height="256" align="center" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise001.png"><table width="210" border="0" cellspacing="0" cellpadding="0">
                 <tr>
-                  <td width="210" height="120" align="center" >&nbsp;<a href="#"><img src="../xueshengshaodai/ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                  <td width="210" height="120" align="center" >&nbsp;<a href="#"><img src="../xueshengshaodai/ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                 </tr>
                 <tr>
                   <td height="30" align="center"  class="a001"><span class="youyuan">三餐2号窗口小土豆炖菜馆</span></td>
@@ -128,7 +128,7 @@ function MM_popupMsg(msg) { //v1.0
                   <td height="30" align="center"  class="a002">德州 | 卖家</td>
                 </tr>
                 <tr>
-                  <td height="76" align="center" ><p><a href="index-maijia002.html"  target="_self"><img src="../xueshengshaodai/ima/捎带员/an000.png" name="Image1" width="160" height="36" id="Image1" onclick="MM_popupMsg('您已下班')" /></a><a href="index-maijia002.html"></a><a href="index-maijia.html"></a><a href="index-maijia002.html"></a><a href="index-maijia.html"></a></p></td>
+                  <td height="76" align="center" ><p><a href="index-maijia002.html"  target="_self"><img src="../xueshengshaodai/ima/shaodaiyuan/an000.png" name="Image1" width="160" height="36" id="Image1" onclick="MM_popupMsg('您已下班')" /></a><a href="index-maijia002.html"></a><a href="index-maijia.html"></a><a href="index-maijia002.html"></a><a href="index-maijia.html"></a></p></td>
                 </tr>
               </table></td>
           </tr>
@@ -140,7 +140,7 @@ function MM_popupMsg(msg) { //v1.0
         </table>
           <table width="210" border="0" cellspacing="0" cellpadding="0">
             <tr>
-              <td width="210" height="510" align="center" valign="top" background="../xueshengshaodai/ima/捎带员/资料白色002.png"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="a003">
+              <td width="210" height="510" align="center" valign="top" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise002.png"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="a003">
                 <tr>
                   <td width="14%" rowspan="6">&nbsp;</td>
                   <td height="45" valign="middle" class="a003"><a href="index-maijia.html">我要接单</a></td>
@@ -166,10 +166,10 @@ function MM_popupMsg(msg) { //v1.0
         <td width="15">&nbsp;</td>
         <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
-            <td width="21" height="67" background="../xueshengshaodai/ima/捎带员/资料白色003.png">&nbsp;</td>
-            <td width="253" background="../xueshengshaodai/ima/捎带员/资料白色003.png"><span class="a003">欢迎&nbsp;</span><span class="youyuan">三餐2号窗口小土豆炖菜馆</span></td>
-            <td width="107" background="../xueshengshaodai/ima/捎带员/资料白色003.png"><span class="a003">身份</span>：<span class="youyuan">卖家</span></td>
-            <td width="515" background="../xueshengshaodai/ima/捎带员/资料白色003.png" class="a003">当前状态：<span class="shangban001">上班中</span></td>
+            <td width="21" height="67" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise003.png">&nbsp;</td>
+            <td width="253" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise003.png"><span class="a003">欢迎&nbsp;</span><span class="youyuan">三餐2号窗口小土豆炖菜馆</span></td>
+            <td width="107" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise003.png"><span class="a003">身份</span>：<span class="youyuan">卖家</span></td>
+            <td width="515" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise003.png" class="a003">当前状态：<span class="shangban001">上班中</span></td>
           </tr>
         </table>
           <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -189,7 +189,7 @@ function MM_popupMsg(msg) { //v1.0
                     <td>&nbsp;</td>
                   </tr>
                 </table>
-                <table width="100%" border="0" cellspacing="0" cellpadding="0" background="../xueshengshaodai/ima/捎带员/资料白色006.png">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise006.png">
                   <tr>
                     <td height="175" align="center" valign="middle"><form id="form1" name="form1" method="post" action="">
                       <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -281,7 +281,7 @@ function MM_popupMsg(msg) { //v1.0
                   <tr>
                     <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td height="42" align="center" valign="middle"><img src="../xueshengshaodai/ima/捎带员/sfz001.png" width="42" height="42" /></td>
+                        <td height="42" align="center" valign="middle"><img src="../xueshengshaodai/ima/shaodaiyuan/sfz001.png" width="42" height="42" /></td>
                         <td>身份证：</td>
                         <td height="42">37142*************4236</td>
                         <td>已绑定 &gt;</td>

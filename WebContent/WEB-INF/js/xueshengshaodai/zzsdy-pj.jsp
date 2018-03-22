@@ -10,7 +10,7 @@ body {
 	margin-left: 0px;
 	margin-top: 0px;
 	margin-right: 0px;
-	background-image: url(ima/%E6%8D%8E%E5%B8%A6%E5%91%98/bjs001.png);
+	background-image: url(ima/shaodaiyuan/bjs001.png);
 	margin-bottom: 100px;
 }
 .q {height:1400px;
@@ -100,13 +100,13 @@ function MM_swapImage() { //v3.0
 </script>
 </head>
 
-<body onload="MM_preloadImages('ima/捎带员/an003.png','ima/捎带员/an009.png')">
+<body onload="MM_preloadImages('ima/shaodaiyuan/an003.png','ima/shaodaiyuan/an009.png')">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="68" height="50" bgcolor="#09F">&nbsp;</td>
     <td width="49" bgcolor="#09F"><span class="zi" ><a href="../shouye.html" ><img src="../xueshengshaodai/ima/shundaishao.png" width="49" height="18" /></a></span></td>
     <td width="870" bgcolor="#09F"><span class="zi"> 丨&nbsp; 通行证</span></td>
-    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="../xueshengshaodai/ima/捎带员/tx001.png" width="49" height="49" /></a></td>
+    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="49" height="49" /></a></td>
     <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="index-dl-zysdy.html"><span class="zi"> 注销</span></a></td>
   </tr>
 </table>
@@ -121,9 +121,9 @@ function MM_swapImage() { //v3.0
       <tr>
         <td width="210" align="center" valign="top"><table width="210" border="0" cellspacing="0" cellpadding="0">
           <tr>
-            <td width="210" height="256" align="center" background="ima/捎带员/资料白色001.png"><table width="210" border="0" cellspacing="0" cellpadding="0">
+            <td width="210" height="256" align="center" background="ima/shaodaiyuan/ziliaobaise001.png"><table width="210" border="0" cellspacing="0" cellpadding="0">
                 <tr>
-                  <td width="210" height="120" align="center" >&nbsp;<a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                  <td width="210" height="120" align="center" >&nbsp;<a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                 </tr>
                 <tr>
                   <td height="30" align="center"  class="a001">张三</td>
@@ -132,7 +132,7 @@ function MM_swapImage() { //v3.0
                   <td height="30" align="center"  class="a002">德州 | 学生</td>
                 </tr>
                 <tr>
-                  <td height="76" align="center" ><a href="index-zzsdy.html"><img src="ima/捎带员/an002.png" name="Image1" width="160" height="36" id="Image1" onmouseover="MM_swapImage('Image1','','ima/捎带员/an003.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+                  <td height="76" align="center" ><a href="index-zzsdy.html"><img src="ima/shaodaiyuan/an002.png" name="Image1" width="160" height="36" id="Image1" onmouseover="MM_swapImage('Image1','','ima/shaodaiyuan/an003.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
                 </tr>
               </table></td>
           </tr>
@@ -144,7 +144,7 @@ function MM_swapImage() { //v3.0
         </table>
           <table width="210" border="0" cellspacing="0" cellpadding="0">
             <tr>
-              <td width="210" height="510" align="center" valign="top" background="ima/捎带员/资料白色002.png"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="a003">
+              <td width="210" height="510" align="center" valign="top" background="ima/shaodaiyuan/ziliaobaise002.png"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="a003">
                 <tr>
                   <td width="14%" rowspan="5">&nbsp;</td>
                   <td width="86%" height="45" valign="middle" class="a003"><a href="zzsdy-jd.html">我的接单</a></td>
@@ -167,9 +167,9 @@ function MM_swapImage() { //v3.0
         <td width="15">&nbsp;</td>
         <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
-            <td width="21" height="67" background="ima/捎带员/资料白色003.png">&nbsp;</td>
-            <td width="106" background="ima/捎带员/资料白色003.png"><span class="a003">欢迎&nbsp;</span><span class="a005"><span class="youyuan">张三</span></span></td>
-            <td width="769" background="ima/捎带员/资料白色003.png"><span class="a003">身份</span>：<span class="youyuan">专职顺带员</span></td>
+            <td width="21" height="67" background="ima/shaodaiyuan/ziliaobaise003.png">&nbsp;</td>
+            <td width="106" background="ima/shaodaiyuan/ziliaobaise003.png"><span class="a003">欢迎&nbsp;</span><span class="a005"><span class="youyuan">张三</span></span></td>
+            <td width="769" background="ima/shaodaiyuan/ziliaobaise003.png"><span class="a003">身份</span>：<span class="youyuan">专职顺带员</span></td>
           </tr>
         </table>
           <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -192,9 +192,9 @@ function MM_swapImage() { //v3.0
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                   <tr>
                     <td width="10">&nbsp;</td>
-                    <td width="285" height="100" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" height="100" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">李*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">4.5分&nbsp;</span></td>
                       </tr>
@@ -203,13 +203,13 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：<span class="dizhi">￥2</span></span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image2" width="70" height="36" id="Image2" onmouseover="MM_swapImage('Image2','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image2" width="70" height="36" id="Image2" onmouseover="MM_swapImage('Image2','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10" >&nbsp;</td>
-                    <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">王*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">5分&nbsp;</span></td>
                       </tr>
@@ -218,13 +218,13 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image31" width="70" height="36" id="Image31" onmouseover="MM_swapImage('Image31','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image31" width="70" height="36" id="Image31" onmouseover="MM_swapImage('Image31','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10">&nbsp;</td>
-                    <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">张*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">4.5分&nbsp;</span></td>
                       </tr>
@@ -233,7 +233,7 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image32" width="70" height="36" id="Image32" onmouseover="MM_swapImage('Image32','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image32" width="70" height="36" id="Image32" onmouseover="MM_swapImage('Image32','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10">&nbsp;</td>
@@ -247,9 +247,9 @@ function MM_swapImage() { //v3.0
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                   <tr>
                     <td width="10">&nbsp;</td>
-                    <td width="285" height="100" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" height="100" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">郭*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">4.5分&nbsp;</span></td>
                       </tr>
@@ -258,13 +258,13 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image33" width="70" height="36" id="Image33" onmouseover="MM_swapImage('Image33','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image33" width="70" height="36" id="Image33" onmouseover="MM_swapImage('Image33','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10" >&nbsp;</td>
-                    <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">刘*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">5分&nbsp;</span></td>
                       </tr>
@@ -273,13 +273,13 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image41" width="70" height="36" id="Image41" onmouseover="MM_swapImage('Image41','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image41" width="70" height="36" id="Image41" onmouseover="MM_swapImage('Image41','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10">&nbsp;</td>
-                    <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">张*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">4.5分&nbsp;</span></td>
                       </tr>
@@ -288,7 +288,7 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image51" width="70" height="36" id="Image51" onmouseover="MM_swapImage('Image51','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image51" width="70" height="36" id="Image51" onmouseover="MM_swapImage('Image51','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10">&nbsp;</td>
@@ -302,9 +302,9 @@ function MM_swapImage() { //v3.0
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                   <tr>
                     <td width="10">&nbsp;</td>
-                    <td width="285" height="100" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" height="100" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">李*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">4.5分&nbsp;</span></td>
                       </tr>
@@ -313,13 +313,13 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image34" width="70" height="36" id="Image34" onmouseover="MM_swapImage('Image34','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image34" width="70" height="36" id="Image34" onmouseover="MM_swapImage('Image34','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10" >&nbsp;</td>
-                    <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">王*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">5分&nbsp;</span></td>
                       </tr>
@@ -328,13 +328,13 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image42" width="70" height="36" id="Image42" onmouseover="MM_swapImage('Image42','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image42" width="70" height="36" id="Image42" onmouseover="MM_swapImage('Image42','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10">&nbsp;</td>
-                    <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">张*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">4.5分&nbsp;</span></td>
                       </tr>
@@ -343,7 +343,7 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image52" width="70" height="36" id="Image52" onmouseover="MM_swapImage('Image52','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image52" width="70" height="36" id="Image52" onmouseover="MM_swapImage('Image52','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10">&nbsp;</td>
@@ -357,9 +357,9 @@ function MM_swapImage() { //v3.0
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                   <tr>
                     <td width="10">&nbsp;</td>
-                    <td width="285" height="100" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" height="100" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">李*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">4.5分&nbsp;</span></td>
                       </tr>
@@ -368,13 +368,13 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image35" width="70" height="36" id="Image35" onmouseover="MM_swapImage('Image35','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image35" width="70" height="36" id="Image35" onmouseover="MM_swapImage('Image35','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10" >&nbsp;</td>
-                    <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">王*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">5分&nbsp;</span></td>
                       </tr>
@@ -383,13 +383,13 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image43" width="70" height="36" id="Image43" onmouseover="MM_swapImage('Image43','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image43" width="70" height="36" id="Image43" onmouseover="MM_swapImage('Image43','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10">&nbsp;</td>
-                    <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">张*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">4.5分&nbsp;</span></td>
                       </tr>
@@ -398,7 +398,7 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image53" width="70" height="36" id="Image53" onmouseover="MM_swapImage('Image53','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image53" width="70" height="36" id="Image53" onmouseover="MM_swapImage('Image53','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10">&nbsp;</td>
@@ -412,9 +412,9 @@ function MM_swapImage() { //v3.0
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                   <tr>
                     <td width="10">&nbsp;</td>
-                    <td width="285" height="100" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" height="100" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">李*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">4.5分&nbsp;</span></td>
                       </tr>
@@ -423,13 +423,13 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image36" width="70" height="36" id="Image36" onmouseover="MM_swapImage('Image36','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image36" width="70" height="36" id="Image36" onmouseover="MM_swapImage('Image36','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10" >&nbsp;</td>
-                    <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">王*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">5分&nbsp;</span></td>
                       </tr>
@@ -438,13 +438,13 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image44" width="70" height="36" id="Image44" onmouseover="MM_swapImage('Image44','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image44" width="70" height="36" id="Image44" onmouseover="MM_swapImage('Image44','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10">&nbsp;</td>
-                    <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">张*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">4.5分&nbsp;</span></td>
                       </tr>
@@ -453,7 +453,7 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image54" width="70" height="36" id="Image54" onmouseover="MM_swapImage('Image54','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image54" width="70" height="36" id="Image54" onmouseover="MM_swapImage('Image54','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10">&nbsp;</td>
@@ -467,9 +467,9 @@ function MM_swapImage() { //v3.0
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                   <tr>
                     <td width="10">&nbsp;</td>
-                    <td width="285" height="100" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" height="100" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">李*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">4.5分&nbsp;</span></td>
                       </tr>
@@ -478,13 +478,13 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image37" width="70" height="36" id="Image37" onmouseover="MM_swapImage('Image37','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image37" width="70" height="36" id="Image37" onmouseover="MM_swapImage('Image37','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10" >&nbsp;</td>
-                    <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">王*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">5分&nbsp;</span></td>
                       </tr>
@@ -493,13 +493,13 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image45" width="70" height="36" id="Image45" onmouseover="MM_swapImage('Image45','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image45" width="70" height="36" id="Image45" onmouseover="MM_swapImage('Image45','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10">&nbsp;</td>
-                    <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">张*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">4.5分&nbsp;</span></td>
                       </tr>
@@ -508,7 +508,7 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image55" width="70" height="36" id="Image55" onmouseover="MM_swapImage('Image55','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image55" width="70" height="36" id="Image55" onmouseover="MM_swapImage('Image55','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10">&nbsp;</td>
@@ -522,9 +522,9 @@ function MM_swapImage() { //v3.0
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                   <tr>
                     <td width="10">&nbsp;</td>
-                    <td width="285" height="100" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" height="100" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">李*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">4.5分&nbsp;</span></td>
                       </tr>
@@ -533,13 +533,13 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image38" width="70" height="36" id="Image38" onmouseover="MM_swapImage('Image38','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image38" width="70" height="36" id="Image38" onmouseover="MM_swapImage('Image38','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10" >&nbsp;</td>
-                    <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">王*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">5分&nbsp;</span></td>
                       </tr>
@@ -548,13 +548,13 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image46" width="70" height="36" id="Image46" onmouseover="MM_swapImage('Image46','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image46" width="70" height="36" id="Image46" onmouseover="MM_swapImage('Image46','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10">&nbsp;</td>
-                    <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">张*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">4.5分&nbsp;</span></td>
                       </tr>
@@ -563,7 +563,7 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image56" width="70" height="36" id="Image56" onmouseover="MM_swapImage('Image56','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image56" width="70" height="36" id="Image56" onmouseover="MM_swapImage('Image56','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10">&nbsp;</td>
@@ -577,9 +577,9 @@ function MM_swapImage() { //v3.0
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                   <tr>
                     <td width="10">&nbsp;</td>
-                    <td width="285" height="100" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" height="100" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">李*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">4.5分&nbsp;</span></td>
                       </tr>
@@ -588,13 +588,13 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image39" width="70" height="36" id="Image39" onmouseover="MM_swapImage('Image39','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image39" width="70" height="36" id="Image39" onmouseover="MM_swapImage('Image39','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10" >&nbsp;</td>
-                    <td width="285" background="ima/捎带员/资料白色005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
+                    <td width="285" background="ima/shaodaiyuan/ziliaobaise005.png"><table width="100%"  height="100" border="0" cellspacing="0" cellpadding="0">
                       <tr>
-                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/捎带员/tx001.png" width="80" height="80" /></a></td>
+                        <td width="34%" height="100" rowspan="3" align="center" valign="middle"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
                         <td width="33%" valign="middle">&nbsp;&nbsp;<span class="a005">王*</span></td>
                         <td width="33%" align="right" valign="middle" class="a004"><span class="juli">5分&nbsp;</span></td>
                       </tr>
@@ -603,7 +603,7 @@ function MM_swapImage() { //v3.0
                       </tr>
                       <tr>
                         <td valign="middle">&nbsp;&nbsp;<span class="dizhi">配送费：￥2</span></td>
-                        <td align="right" valign="middle"><img src="ima/捎带员/an008.png" name="Image47" width="70" height="36" id="Image47" onmouseover="MM_swapImage('Image47','','ima/捎带员/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
+                        <td align="right" valign="middle"><img src="ima/shaodaiyuan/an008.png" name="Image47" width="70" height="36" id="Image47" onmouseover="MM_swapImage('Image47','','ima/shaodaiyuan/an009.png',1)" onmouseout="MM_swapImgRestore()" />&nbsp;</td>
                       </tr>
                     </table></td>
                     <td width="10">&nbsp;</td>

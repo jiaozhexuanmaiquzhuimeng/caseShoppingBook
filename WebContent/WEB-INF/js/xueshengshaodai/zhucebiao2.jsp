@@ -99,7 +99,7 @@ function MM_swapImage() { //v3.0
   <tr>
     <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
       <tr>
-        <td height="550" align="center" valign="middle" background="ima/白色003.png"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <td height="550" align="center" valign="middle" background="ima/baise003.png"><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
               <td align="center" class="a001"><p><span class="b001">顺带捎</span></p>
                 <p>注册顺带捎，方便你我他！</p></td>
