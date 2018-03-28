@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%
+	request.setAttribute("APP_PATH", request.getContextPath());
+%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -118,9 +121,9 @@ function MM_popupMsg(msg) { //v1.0
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="68" height="50" bgcolor="#09F">&nbsp;</td>
-    <td width="49" bgcolor="#09F"><span class="zi" ><a href="../shouye.html" ><img src="../xueshengshaodai/ima/shundaishao.png" width="49" height="18" /></a></span></td>
+    <td width="49" bgcolor="#09F"><span class="zi" ><a href="../shouye.html" ><img src="${APP_PATH}/upload/${requestScope.imgName}" width="49" height="18" /></a></span></td>
     <td width="870" bgcolor="#09F"><span class="zi"> 丨&nbsp; 通行证</span></td>
-    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="../xueshengshaodai/ima/shaodaiyuan/tx001.png" width="49" height="49" /></a></td>
+    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="${APP_PATH}/upload/${requestScope.imgName}" width="49" height="49" /></a></td>
     <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="../xueshengshaodai/index-dl.html"><span class="zi"> 注销</span></a></td>
   </tr>
 </table>
@@ -137,7 +140,7 @@ function MM_popupMsg(msg) { //v1.0
           <tr>
             <td width="210" height="256" align="center" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise001.png"><table width="210" border="0" cellspacing="0" cellpadding="0">
                 <tr>
-                  <td width="210" height="120" align="center" >&nbsp;<a href="#"><img src="../xueshengshaodai/ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
+                  <td width="210" height="120" align="center" >&nbsp;<a href="#"><img src="${APP_PATH}/upload/${requestScope.imgName}" width="80" height="80" /></a></td>
                 </tr>
                 <tr>
                   <td height="30" align="center"  class="a001"><span class="youyuan">三餐2号窗口小土豆炖菜馆</span></td>
