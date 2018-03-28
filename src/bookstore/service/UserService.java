@@ -26,6 +26,32 @@ public class UserService {
 		Long i = userDao.selectCountByUserName(username);
 		return i;
 	}
+
+	/**
+	 * @return
+	 */
+	public Long update(Person person) {
+		userDao.update(person);
+		return null;
+	}
+
+	/**
+	 * @param storeName
+	 * @return
+	 */
+	public Long selectCountByStoreName(String storeName) {
+		long i = userDao.selectByStoreName(storeName);
+		return i;
+	}
+
+	/**
+	 * @param username
+	 * @return
+	 */
+	public Person selectUserByUserName(String username) {
+		Person person = userDao.selectUserByUserName(username);
+		return person;
+	}
 	
 	
 
