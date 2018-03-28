@@ -26,30 +26,6 @@ public class UserDaoImpl extends BaseDAO<Person> implements UserDao {
 		Long val = getSingleVal(sql,username);
 		return val;
 	}
-
-	@Override
-	public Long update(Person person) {
-		String sql = "UPDATE person SET storeName=?,`name`=?, idCard=?, address=?, phone=?, money=?, licenceAdress=?, imgName=?, imgAdress=? WHERE userName=?";
-		update(sql, person.getStoreName(), person.getName(), person.getIdCard(), person.getAddress(), person.getPhone(), person.getMoney(), person.getLicenceAdress(), person.getImgName(), person.getImgAdress(), person.getUserName());
-		return null;
-	}
-
-	@Override
-	public long selectByStoreName(String storeName) {
-		String sql = "select count(*) from person where storeName = ?";
-		long val = getSingleVal(sql, storeName);
-		return val;
-	}
-
-	@Override
-	public Person selectUserByUserName(String username) {
-		String sql = "SELECT `id`,`userName`,`passWord`,`name`,`address`,`role`,`phone`,`storeName`,"
-				+ "`idCard`,`imgAdress`,`imgName`,`InsuranceAmount`,`Licence`,"
-				+ "`LicenceImg`,`LicenceAdress`,`money`FROM `person` WHERE `person`.userName = ?";
-				
-		Person person = query(sql, username);
-		return person;
-	}
 	
 
 }

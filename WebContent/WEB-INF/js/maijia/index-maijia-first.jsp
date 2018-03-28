@@ -94,10 +94,10 @@ a:active {
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="68" height="50" bgcolor="#09F">&nbsp;</td>
-    <td width="49" bgcolor="#09F"><span class="zi" ><a href="../shouye.html" ><img src="ima/shundaishao.png" width="49" height="18" /></a></span></td>
+    <td width="49" bgcolor="#09F"><span class="zi" ><a href="../shouye.html" ><img src="../xueshengshaodai/ima/shundaishao.png" width="49" height="18" /></a></span></td>
     <td width="870" bgcolor="#09F"><span class="zi"> 丨&nbsp; 通行证</span></td>
-    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="49" height="49" /></a></td>
-    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="<%= request.getContextPath() %>"><span class="zi"> 注销</span></a></td>
+    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="/ima2/zhixiaoyuan/tx001.png" width="49" height="49" /></a></td>
+    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="<%= request.getContextPath() %>../xueshengshaodai/index-dl.html"><span class="zi"> 注销</span></a></td>
   </tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -113,7 +113,7 @@ a:active {
           <tr>
             <td width="210" height="256" align="center" background="ima2/捎带员/资料白色001.png"><table width="210" border="0" cellspacing="0" cellpadding="0">
               <tr>
-                <td width="210" height="120" align="center" >&nbsp;<a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
+                <td width="210" height="120" align="center" >&nbsp;<a href="#"><img src="/ima2/zhixiaoyuan/tx001.png" width="80" height="80" /></a></td>
               </tr>
               <tr>
                 <td height="30" align="center"  class="a001"><span class="youyuan">${sessionScope.username }</span></td>
@@ -122,7 +122,7 @@ a:active {
                 <td height="30" align="center"  class="a002">德州 | 卖家</td>
               </tr>
               <tr>
-                <td height="76" align="center" ><form id="form2" name="form1" method="post" action="userServlet?method=sellerInfoTwoPage">
+                <td height="76" align="center" ><form id="form2" name="form1" method="post" action="userServlet?method=sellerInfoPage">
                   <input name="button3" type="submit" class="wanshan" id="button3" />
                 </form></td>
               </tr>

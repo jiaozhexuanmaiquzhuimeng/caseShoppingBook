@@ -100,9 +100,9 @@ a:active {
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="68" height="50" bgcolor="#09F">&nbsp;</td>
-    <td width="49" bgcolor="#09F"><span class="zi" ><a href="../shouye.html" ><img src="ima/shundaishao.png" width="49" height="18" /></a></span></td>
+    <td width="49" bgcolor="#09F"><span class="zi" ><a href="../shouye.html" ><img src="../xueshengshaodai/ima/shundaishao.png" width="49" height="18" /></a></span></td>
     <td width="870" bgcolor="#09F"><span class="zi"> 丨&nbsp; 通行证</span></td>
-    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="ima/shaodaiyuan/tx001.png" width="49" height="49" /></a></td>
+    <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="#"><img src="../xueshengshaodai/ima/shaodaiyuan/tx001.png" width="49" height="49" /></a></td>
     <td width="55" align="center" valign="middle" bgcolor="#09F"><a href="../xueshengshaodai/index-dl.html"><span class="zi"> 注销</span></a></td>
   </tr>
 </table>
@@ -119,10 +119,10 @@ a:active {
           <tr>
             <td width="210" height="256" align="center" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise001.png"><table width="210" border="0" cellspacing="0" cellpadding="0">
               <tr>
-                <td width="210" height="120" align="center" >&nbsp;<a href="#"><img src="ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
+                <td width="210" height="120" align="center" >&nbsp;<a href="#"><img src="../xueshengshaodai/ima/shaodaiyuan/tx001.png" width="80" height="80" /></a></td>
               </tr>
               <tr>
-                <td height="30" align="center"  class="a001">${requestScope.person.userName }</td>
+                <td height="30" align="center"  class="a001"><span class="youyuan">189****7890</span></td>
               </tr>
               <tr>
                 <td height="30" align="center"  class="a002">德州 | 卖家</td>
@@ -144,7 +144,7 @@ a:active {
         <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="21" height="67" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise003.png">&nbsp;</td>
-            <td width="253" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise003.png"><span class="a003">欢迎&nbsp;</span>${sessionScope.username }</td>
+            <td width="253" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise003.png"><span class="a003">欢迎&nbsp;</span><span class="youyuan">189****7890</span></td>
             <td width="107" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise003.png"><span class="a003">身份</span>：<span class="youyuan">卖家</span></td>
             <td width="515" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise003.png" class="a003">当前状态：<span class="dengdai">信息不完整</span></td>
           </tr>
@@ -168,59 +168,54 @@ a:active {
                 </table>
                 <table width="100%" border="0" cellspacing="0" cellpadding="0" background="../xueshengshaodai/ima/shaodaiyuan/ziliaobaise006.png">
                   <tr>
-                    <td height="175" align="center" valign="middle">
-                    <form id="form1" name="form1" method="post" action="/caseShoppingBook/userServlet?method=sellerInfoOnePage" enctype="multipart/form-data">
+                    <td height="175" align="center" valign="middle"><form id="form1" name="form1" method="post" action="index-maijia002.html">
                       <table width="100%" border="0" cellspacing="0" cellpadding="0">
                         <tr>
                           <td width="355" align="right" valign="middle" class="a005">账&nbsp;&nbsp;&nbsp;&nbsp;号</td>
                           <td width="16">&nbsp;</td>
-                          <td width="525" height="30"><input name="userName" type="text" id="textfield5" value="${requestScope.person.userName}" /></td>
+                          <td width="525" height="30"><input name="textfield" type="text" disabled="disabled" id="textfield" value="20001" readonly="readonly" /></td>
                         </tr>
                         <tr>
                           <td align="right" valign="middle" class="a005">店 &nbsp;&nbsp;&nbsp;名</td>
                           <td>&nbsp;</td>
-                          <td height="30"><input name="storeName" type="text" id="textfield5" value="${requestScope.person.storeName }" />
+                          <td height="30"><input name="textfield5" type="text" id="textfield5" />
                             <span class="hongse">*</span></td>
                         </tr>
                         <tr>
                           <td align="right" valign="middle" class="a005">姓&nbsp;&nbsp;&nbsp;&nbsp;名</td>
                           <td>&nbsp;</td>
-                          <td height="30"><input name="name" type="text"  id="textfield4" value="${requestScope.person.name }" />
+                          <td height="30"><input name="textfield2" type="text" disabled="disabled" id="textfield4" value="王五" readonly="readonly" />
                             <span class="hongse">*</span></td>
                         </tr>
                         <tr>
                           <td align="right" valign="middle" class="a005">身份证号</td>
                           <td>&nbsp;</td>
-                          <td height="30"><input name="idCard" type="text"  id="textfield9" value="${requestScope.person.idCard }"  />
+                          <td height="30"><input name="textfield9" type="text" disabled="disabled" id="textfield9" value="37142*********4236" readonly="readonly" />
                             <span class="hongse">*</span></td>
                         </tr>
                         <tr>
                           <td align="right" valign="middle" class="a005">身份证号和店主合照</td>
                           <td>&nbsp;</td>
-                          <td height="30"><span class="dizhi"><input type="file" name="imgName">
-                          	</span></td>
-                        	<td>
-                        		<img width="500px" height="300px" src="${requestScope.person.imgAdress }" alt="${requestScope.person.imgName }" />
-                        	</td>
+                          <td height="30"><span class="dizhi"><a href="#">上传图片</a></span><a href="#"> <span class="hongse">*</span></a></td>
                         </tr>
                         <tr>
                           <td align="right" valign="middle" class="a005">地&nbsp;&nbsp;&nbsp;&nbsp;址</td>
                           <td>&nbsp;</td>
                           <td height="30"><label for="textfield3"></label>
-                            <input name="address" type="text" id="textfield3" value="${requestScope.person.address }"/>
+                            <input name="textfield3" type="text" id="textfield3" />
                             <span class="hongse">*</span></td>
                         </tr>
                         <tr>
                           <td align="right" valign="middle" class="a005">手机号</td>
                           <td>&nbsp;</td>
                           <td height="30"><label for="textfield2"></label>
-                            <input name="phone" type="text"  id="textfield2" value="${requestScope.person.phone }"  />
+                            <input name="textfield4" type="text" disabled="disabled" id="textfield2" value="189****7890" readonly="readonly" />
                             <span class="hongse">*&nbsp;</span><span class="a003"><span class="dizhi"><a href="#">修改手机号</a></span></span></td>
                         </tr>
                         <tr>
                           <td align="right" valign="middle" class="a005">保险金额</td>
                           <td>&nbsp;</td>
-                          <td height="30">&nbsp; <input type="text" name="money" value="${requestScope.person.money }">
+                          <td height="30">&nbsp; 0元
                             <span class="dizhi"><a href="#">提交金额</a></span></td>
                         </tr>
                         <tr>
@@ -231,26 +226,25 @@ a:active {
                         <tr>
                           <td align="right" valign="middle" class="a005">食品流通许可证号</td>
                           <td>&nbsp;</td>
-                          <td height="30"><input name="licence" type="text" id="textfield8" value="${requestScope.person.licence }"/>
+                          <td height="30"><input name="textfield8" type="text" id="textfield8" />
                             <span class="hongse">*</span></td>
                         </tr>
                         <tr>
                           <td align="right" valign="middle" class="a005">食品流通许可证和店主合照</td>
                           <td>&nbsp;</td>
-                          <td height="30" class="dizhi"><input type="file" name="licenceImg"></td>
+                          <td height="30" class="dizhi"><a href="#">上传图片
+                              <span class="hongse">*</span></a></td>
                         </tr>
                         <tr>
                           <td height="30" colspan="3" align="center"></td>
                         </tr>
-                        <p style="color:red">${message}</p>
                       </table>
                       <input type="submit" name="button" id="button" value="确定" />
                       &nbsp;&nbsp;&nbsp;
                       <input type="reset" name="button2" id="button2" value="重置" />
                     </form></td>
                   </tr>
-                </table>
-                </td>
+                </table></td>
             </tr>
           </table></td>
       </tr>

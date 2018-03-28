@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -11,49 +11,36 @@ body {
 	background-image: url(ima/shaodaiyuan/bjs001.png);
 	margin-top: 0px;
 }
-
 .a001 {
 	font-size: 48px;
 	font-family: "幼圆";
 }
-
-.q {
-	height: 1400px;
-	width: 1024px;
-	background: #09F;
-	margin: auto;
+.q {height:1400px;
+	width:1024px;
+	background:#09F;
+	margin:auto;
 }
-
-.zi {
-	color: #FFF;
-	font-size: 16px;
-	font-family: "MS Serif", "New York", serif;
-	font-weight: bolder;
+.zi {color:#FFF;
+	font-size:16px;
+	font-family:"MS Serif", "New York", serif;
+	font-weight:bolder;
 }
-
-.a002 {
-	font-family: "微软雅黑";
+.a002 {	font-family: "微软雅黑";
 }
-
-.dsadsa {
-	font-size: 14px;
+.dsadsa {	font-size: 14px;
 }
-
 a:link {
 	color: #000;
 	text-decoration: none;
 }
-
 a:visited {
 	text-decoration: none;
 	color: #000;
 }
-
 a:hover {
 	text-decoration: none;
 	color: #CC9;
 }
-
 a:active {
 	text-decoration: none;
 	color: #F99;
@@ -62,40 +49,34 @@ a:active {
 </head>
 
 <body>
-	<table width="100%" border="0" cellspacing="0" cellpadding="0">
-		<tr>
-			<td width="160" height="50" bgcolor="#09F"><span class="q">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-			<td width="49" bgcolor="#09F"><span class="q"><a
-					href="../shouye.html"><img
-						src="../xueshengshaodai/ima/shundaishao.png" width="49"
-						height="18" /></a></span></td>
-			<td width="889" bgcolor="#09F"><span class="zi">&nbsp;
-					丨&nbsp; 通行证</span></td>
-		</tr>
-	</table>
-	<table width="100%" border="0" cellspacing="0" cellpadding="0">
-		<tr>
-			<td height="50">&nbsp;</td>
-		</tr>
-	</table>
-	<form id="form1" name="form1" method="post" action="index-zysdy.html">
-		<table width="100%" border="0" cellspacing="0" cellpadding="0">
-			<tr>
-				<td><table width="100%" border="0" cellspacing="0"
-						cellpadding="0">
-						<tr>
-							<td align="center" class="a001">学生捎带协议</td>
-						</tr>
-					</table>
-					<table width="100%" border="0" cellspacing="0" cellpadding="0">
-						<tr>
-							<td>&nbsp;</td>
-						</tr>
-					</table>
-					<table width="100%" border="0" cellspacing="0" cellpadding="0">
-						<tr>
-							<td align="center"><textarea name="textarea" id="textarea"
-									cols="100" rows="20">    公司在起步阶段会因为资金不足、缺乏知名而不被人重视，但顺带捎服务平台提供内容的“个性化”、服务对象的“特定化”、赢利模式的“多元化”。
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="160" height="50" bgcolor="#09F"><span class="q">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+    <td width="49" bgcolor="#09F"><span class="q"><a href="../shouye.html" ><img src="../xueshengshaodai/ima/shundaishao.png" width="49" height="18" /></a></span></td>
+    <td width="889" bgcolor="#09F"><span class="zi">&nbsp; 丨&nbsp; 通行证</span></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="50">&nbsp;</td>
+  </tr>
+</table>
+<form id="form1" name="form1" method="post" action="index-zysdy.html">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center" class="a001">学生捎带协议</td>
+        </tr>
+      </table>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+        </table>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+          <td align="center"><textarea name="textarea" id="textarea" cols="100" rows="20">    公司在起步阶段会因为资金不足、缺乏知名而不被人重视，但顺带捎服务平台提供内容的“个性化”、服务对象的“特定化”、赢利模式的“多元化”。
 这款软件是让大学生自己动起来的软件，是大学生自己送外卖，既可以勤工俭学，又方便快捷。大学生了解自己的学校。送餐快，而且这款软件既然叫做顺带捎那就要起到顺带的作用。大家都听说过滴滴打车吧，最近又出了另一个叫做滴滴快车。这是个什么用处那，这是一个让附近的汽车动起来的可以迅速接到客人的软件。就近寻找。我们这款软件就是就近寻找。学生可以打开app，登录到顺带捎界面进入自己的后台开启定位选择自己所在的地方选择接单时间比方说我在这等10分钟系统会自动发起单子给等待者。这样就可以弥补别的外卖软件所用的时间。我们这款软件可以说是方便快捷。快捷就体现在送货者就在你所需要订餐的地方只要饭做好了，就会直接给你送过去。省下了送货者到达餐厅的时间。这样让用户能迅速的吃到饭菜。还可以预约买饭。这样可以减少食堂拥挤和排队时间。当然每个窗口是有限量的。
   大学生是一个很庞大的人群，大学生的流行趋势也有很多种这款软件拥有用户量的同时可以采用一种推广美食，或者学生需要的东西进行饥饿营销。让他们抢购每个星期都有，带领学生流行潮流。联系商家必须是大型连锁商家。这样子可以达到像京东快递那样外卖迅速。即保质保量又有他们称心的东西。这会特别的吸引大学生尤其是女大学生。
   顺带捎之图书业务。为什么要有这个业务。顺带捎是方便学生的，所以说学生所需要的也要以学习为重，在这样的情况下，我们可以增添专业资料专业图书。四六级英语资料。二级计算机资料等等资料。让学生不用出门的情况下就可以迅速快捷查找资料。
@@ -131,27 +112,27 @@ a:active {
 4.2.1.4 法律环境
 公司在利益最大化的营销行为中存在的风险是不容忽视的,而法律风险更是防不胜防。营销作为现代企业行为中极为重要的一部分,必须要严格遵循法律，在法律范围内活动。在营销工程中要遵循《消费者权益保护法》《产品质量法》《反不正当竞争法》等法律法规。不做虚假宣传，不偷税漏税，听取消费者对公司提供的产品及服务的意见，接受消费者的监督。
           </textarea></td>
-						</tr>
-					</table>
-					<table width="100%" border="0" cellspacing="0" cellpadding="0">
-						<tr>
-							<td width="25%" align="center">&nbsp;</td>
-							<td width="75%" align="left"><p>
-									<label> <input name="CheckboxGroup1" type="checkbox"
-										id="CheckboxGroup1_0" value="tongyi" /> 我同意协议
-									</label> <br />
-								</p></td>
-						</tr>
-					</table>
-					<table width="100%" border="0" cellspacing="0" cellpadding="0">
-						<tr>
-							<td align="center"><input type="submit" name="button"
-								id="button" value="确定" /> &nbsp;&nbsp;<a
-								href="index-dl-zysdy.html" class="a002"><span class="dsadsa">返回</span></a></td>
-						</tr>
-					</table></td>
-			</tr>
-		</table>
-	</form>
+        </tr>
+    </table>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="25%" align="center">&nbsp;</td>
+            <td width="75%" align="left"><p>
+              <label>
+                <input name="CheckboxGroup1" type="checkbox" id="CheckboxGroup1_0" value="tongyi" />
+                我同意协议</label>
+              <br />
+            </p></td>
+          </tr>
+      </table>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="center"><input type="submit" name="button" id="button" value="确定" />
+            &nbsp;&nbsp;<a href="index-dl-zysdy.html" class="a002"><span class="dsadsa">返回</span></a></td>
+          </tr>
+      </table></td>
+    </tr>
+  </table>
+</form>
 </body>
 </html>

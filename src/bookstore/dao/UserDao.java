@@ -15,24 +15,6 @@ public interface UserDao {
 	 * @return
 	 */
 	public Long selectCountByUserName(String username);
-
-	/**
-	 * @param person
-	 * @return
-	 */
-	public Long update(Person person);
-
-	/**
-	 * @param storeName
-	 * @return
-	 */
-	public long selectByStoreName(String storeName);
-
-	/**
-	 * @param username
-	 * @return
-	 */
-	public Person selectUserByUserName(String username);
 	
 	
 }
